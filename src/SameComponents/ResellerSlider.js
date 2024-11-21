@@ -5,11 +5,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 const ResellerSlider = () => {
     return (
         <>
-            <div className="ResellerSlider" style={{ backgroundColor: 'black', overflowX: 'hidden' }}>
-                <div style={{ width: '95%', margin: '0px auto' }}>
-                    {/* Add Heading Here */}
-                    <h2 className="text-center text-white text-2xl font-bold mb-4">Hardware Services</h2>
-
+            <div className="ResellerSlider" style={{ backgroundColor: 'black', overflowX:'hidden' }}>
+                <div
+                    style={{ width: '95%', margin: '20px auto' }}>
                     <Swiper
                         slidesPerView={4}
                         loop={true}
@@ -304,7 +302,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                                Air Conditioner Installation and Repair
+                                Air Conditioner Installation 
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -319,7 +317,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                                Microwave Repair and Maintenance
+                                Microwave Repair  
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
