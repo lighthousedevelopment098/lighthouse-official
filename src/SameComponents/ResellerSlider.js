@@ -43,7 +43,7 @@ const ResellerSlider = () => {
                         }}
                     >
                         <SwiperSlide>
-                            <img src="https://wolftechs.pk/_next/static/media/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
+                            <img src="/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
                             <div className='w-100 p-2 mt-3' style={{ backgroundColor: '#f1f1f1' }}>
                                 <h3 className='fs-5'>Starter Plan</h3>
                             </div>
@@ -63,7 +63,7 @@ const ResellerSlider = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img src="https://wolftechs.pk/_next/static/media/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
+                            <img src="/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
                             <div className='w-100 p-2 mt-3' style={{ backgroundColor: '#f1f1f1' }}>
                                 <h3 className='fs-5'>Starter Plan</h3>
                             </div>
@@ -83,7 +83,7 @@ const ResellerSlider = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img src="https://wolftechs.pk/_next/static/media/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
+                            <img src="/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
                             <div className='w-100 p-2 mt-3' style={{ backgroundColor: '#f1f1f1' }}>
                                 <h3 className='fs-5'>Starter Plan</h3>
                             </div>
@@ -103,7 +103,7 @@ const ResellerSlider = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img src="https://wolftechs.pk/_next/static/media/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
+                            <img src="/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
                             <div className='w-100 p-2 mt-3' style={{ backgroundColor: '#f1f1f1' }}>
                                 <h3 className='fs-5'>Economy Plan</h3>
                             </div>
@@ -123,7 +123,7 @@ const ResellerSlider = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img src="https://wolftechs.pk/_next/static/media/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
+                            <img src="/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
                             <div className='w-100 p-2 mt-3' style={{ backgroundColor: '#f1f1f1' }}>
                                 <h3 className='fs-5'>Delux Plan</h3>
                             </div>
@@ -143,7 +143,7 @@ const ResellerSlider = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img src="https://wolftechs.pk/_next/static/media/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
+                            <img src="/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
                             <div className='w-100 p-2 mt-3' style={{ backgroundColor: '#f1f1f1' }}>
                                 <h3 className='fs-5'>Master Plan</h3>
                             </div>
@@ -164,7 +164,7 @@ const ResellerSlider = () => {
 
 
                         <SwiperSlide>
-                            <img src="https://wolftechs.pk/_next/static/media/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
+                            <img src="/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
                             <div className='w-100 p-2 mt-3' style={{ backgroundColor: '#f1f1f1' }}>
                                 <h3 className='fs-5'>Bussiness Plan</h3>
                             </div>
@@ -183,7 +183,7 @@ const ResellerSlider = () => {
                             <button type='button' className='px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3' style={{ backgroundColor: '#009BDD' }}>Buy Now</button>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src="https://wolftechs.pk/_next/static/media/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
+                            <img src="/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
                             <div className='w-100 p-2 mt-3' style={{ backgroundColor: '#f1f1f1' }}>
                                 <h3 className='fs-5'>Unlimited Plan</h3>
                             </div>
