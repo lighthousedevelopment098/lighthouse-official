@@ -6,7 +6,7 @@ const ResellerSlider = () => {
         <>
             <div className="ResellerSlider" style={{ backgroundColor: 'black', overflowX:'hidden' }}>
                 <div
-                    style={{ width: '95%', margin: '0px auto' }}>
+                    style={{ width: '95%', margin: '20px auto' }}>
                     <Swiper
                         slidesPerView={4}
                         loop={true}
