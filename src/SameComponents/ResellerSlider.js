@@ -337,7 +337,7 @@ const ResellerSlider = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="https://cheapplumber.ca/wp-content/uploads/2023/11/dishwasher-installation-650x433.png"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7iOMOtCnRry7T2L8nsTAoHX9pskVcdAcJjQ&s"
                                 className="h-full border border-2 "
                                 style={{ maxWidth: '260px', height: '50vh' }}
                                 alt=""
@@ -347,12 +347,12 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                               Dishwasher Installation
+                               Switch
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="https://cheapplumber.ca/wp-content/uploads/2023/11/dishwasher-installation-650x433.png"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgBOZMrQi3X3Tka15QaTRhR37OB2ocM_BxZg&s"
                                 className="h-full border border-2 "
                                 style={{ maxWidth: '260px', height: '50vh' }}
                                 alt=""
@@ -362,12 +362,12 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                               Dishwasher Installation
+                               Modem
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="https://cheapplumber.ca/wp-content/uploads/2023/11/dishwasher-installation-650x433.png"
+                                src="https://wpdistrict.sitelock.com/wp-content/uploads/2016/06/Firewall.png"
                                 className="h-full border border-2 "
                                 style={{ maxWidth: '260px', height: '50vh' }}
                                 alt=""
@@ -377,12 +377,12 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                               Dishwasher Installation
+                               Firewall Installation
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="https://cheapplumber.ca/wp-content/uploads/2023/11/dishwasher-installation-650x433.png"
+                                src="https://media.licdn.com/dms/image/v2/D5612AQFnd37Rh4Zx3A/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1682498396668?e=1736985600&v=beta&t=qLIfzcQKDwzAGGp1J_Jn5hkb5HNcs0FlRHzNzOzg38M"
                                 className="h-full border border-2 "
                                 style={{ maxWidth: '260px', height: '50vh' }}
                                 alt=""
@@ -392,12 +392,12 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                               Dishwasher Installation
+                              Access Point (AP)
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="https://cheapplumber.ca/wp-content/uploads/2023/11/dishwasher-installation-650x433.png"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDXO58xabmbD4iCtpCt2kJumrHYYLcZY01fQ&s"
                                 className="h-full border border-2 "
                                 style={{ maxWidth: '260px', height: '50vh' }}
                                 alt=""
@@ -407,12 +407,12 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                               Dishwasher Installation
+                              USB Hub Installation & Setup
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="https://cheapplumber.ca/wp-content/uploads/2023/11/dishwasher-installation-650x433.png"
+                                src="https://i.ytimg.com/vi/ai5bFPVToMU/maxresdefault.jpg"
                                 className="h-full border border-2 "
                                 style={{ maxWidth: '260px', height: '50vh' }}
                                 alt=""
@@ -421,13 +421,12 @@ const ResellerSlider = () => {
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
-                            >
-                               Dishwasher Installation
+                            >Gateway Installation 
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="https://cheapplumber.ca/wp-content/uploads/2023/11/dishwasher-installation-650x433.png"
+                                src="https://www.elprocus.com/wp-content/uploads/bridge-in-computer-network.jpg"
                                 className="h-full border border-2 "
                                 style={{ maxWidth: '260px', height: '50vh' }}
                                 alt=""
@@ -437,12 +436,12 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                               Dishwasher Installation
+                               Network Bridge Installation
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="https://cheapplumber.ca/wp-content/uploads/2023/11/dishwasher-installation-650x433.png"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSay9n-LmFBHSFzYDzxbxj4VjfogkE4WsP_FQ&s"
                                 className="h-full border border-2 "
                                 style={{ maxWidth: '260px', height: '50vh' }}
                                 alt=""
@@ -452,12 +451,12 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                               Dishwasher Installation
+                               Network Interface Card (NIC)
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="https://cheapplumber.ca/wp-content/uploads/2023/11/dishwasher-installation-650x433.png"
+                                src="https://cdn.shopify.com/s/files/1/1268/5407/files/different-types-of-wifi-repeater_large.jpg?v=1588621565"
                                 className="h-full border border-2 "
                                 style={{ maxWidth: '260px', height: '50vh' }}
                                 alt=""
@@ -467,12 +466,12 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                               Dishwasher Installation
+                               Repeater Installation
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="https://cheapplumber.ca/wp-content/uploads/2023/11/dishwasher-installation-650x433.png"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ55Zz_Cbn5e0kL7shlRETG-XvYd9r9oQS4SA&s"
                                 className="h-full border border-2 "
                                 style={{ maxWidth: '260px', height: '50vh' }}
                                 alt=""
@@ -482,9 +481,55 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                               Dishwasher Installation
+                               Load Balancer Setup
                             </button>
                         </SwiperSlide>
+                        <SwiperSlide>
+                            <img
+                                src="https://brightdata.com/wp-content/uploads/2024/05/How-proxy-servers-work.png"
+                                className="h-full border border-2 "
+                                style={{ maxWidth: '260px', height: '50vh' }}
+                                alt=""
+                            />
+                            <button
+                                type="button"
+                                className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
+                                style={{ backgroundColor: '#009BDD' }}
+                            >
+                              Proxy Server Setup
+                            </button>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img
+                                src="https://zeve.au/wp/uploads/2023/12/diy-home-plumbing-projects.jpg"
+                                className="h-full border border-2 "
+                                style={{ maxWidth: '260px', height: '50vh' }}
+                                alt=""
+                            />
+                            <button
+                                type="button"
+                                className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
+                                style={{ backgroundColor: '#009BDD' }}
+                            >
+                              Plumbing Hardware Installation
+                            </button>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img
+                                src="https://www.familyhandyman.com/wp-content/uploads/2017/06/FH10MAY_508_06_034-1200.jpg?fit=640%2C824"
+                                className="h-full border border-2 "
+                                style={{ maxWidth: '260px', height: '50vh' }}
+                                alt=""
+                            />
+                            <button
+                                type="button"
+                                className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
+                                style={{ backgroundColor: '#009BDD' }}
+                            >
+                               Lighting Fixture Installation
+                            </button>
+                        </SwiperSlide>
+                      
                     </Swiper>
                 </div>
             </div>
