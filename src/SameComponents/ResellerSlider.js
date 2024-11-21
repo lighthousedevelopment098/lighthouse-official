@@ -43,164 +43,67 @@ const ResellerSlider = () => {
                         }}
                     >
                         <SwiperSlide>
-                            <img src="/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
-                            <div className='w-100 p-2 mt-3' style={{ backgroundColor: '#f1f1f1' }}>
-                                <h3 className='fs-5'>Starter Plan</h3>
-                            </div>
-                            <div className='w-100 p-2'>
-                                <h3 className='fs-5'>Rs.4749 / Monthly</h3>
-                            </div>
-                            <div className='p-3' style={{ backgroundColor: '#f1f1f1', borderRadius: "4px" }}>
-                                <small> 50GB Of Storage</small>
-                                <small> Addon Domains  </small>
-                                <small> Unlimited Bandwidth</small>
-                                <small> 5000 Subdomains </small>
-                                <small> Unlimited Email Accounts.</small>
-                                <small> Unlimited Databases </small>                          <small> Free SSL Certficates</small>                           <small> Free COM Domain </small>
-                                <small> Free Private Nameservers.</small>
-                            </div>
+                            <img src="https://assets.tripplite.com/large-image/sr48ub-front-l.jpg" className='h-full' style={{ maxWidth: '160px' , height:'50vh'}} alt="" />
+                         
                             <button type='button' className='px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3' style={{ backgroundColor: '#009BDD' }}>Buy Now</button>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img src="/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
-                            <div className='w-100 p-2 mt-3' style={{ backgroundColor: '#f1f1f1' }}>
-                                <h3 className='fs-5'>Starter Plan</h3>
-                            </div>
-                            <div className='w-100 p-2'>
-                                <h3 className='fs-5'>Rs.4749 / Monthly</h3>
-                            </div>
-                            <div className='p-3' style={{ backgroundColor: '#f1f1f1', borderRadius: "4px" }}>
-                                <small> 50GB Of Storage</small>
-                                <small> Unlimited Bandwidth</small>
-                                <small> Addon Domains  </small>
-                                <small> 5000 Subdomains </small>
-                                <small> Unlimited Email Accounts.</small>
-                                <small> Unlimited Databases </small>                          <small> Free SSL Certficates</small>                           <small> Free COM Domain </small>
-                                <small> Free Private Nameservers.</small>
-                            </div>
+                            <img src="https://stl.tech/wp-content/uploads/2023/01/Routers-in-networking.jpg" className='h-full' style={{ maxWidth: '160px' , height:'50vh'}} alt="" />
+                         
                             <button type='button' className='px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3' style={{ backgroundColor: '#009BDD' }}>Buy Now</button>
                         </SwiperSlide>
 
-                        <SwiperSlide>
-                            <img src="/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
-                            <div className='w-100 p-2 mt-3' style={{ backgroundColor: '#f1f1f1' }}>
-                                <h3 className='fs-5'>Starter Plan</h3>
-                            </div>
-                            <div className='w-100 p-2'>
-                                <h3 className='fs-5'>Rs.4749 / Monthly</h3>
-                            </div>
-                            <div className='p-3' style={{ backgroundColor: '#f1f1f1', borderRadius: "4px" }}>
-                                <small> 50GB Of Storage</small>
-                                <small> Unlimited Bandwidth</small>
-                                <small> Addon Domains  </small>
-                                <small> 5000 Subdomains </small>
-                                <small> Unlimited Email Accounts.</small>
-                                <small> Unlimited Databases </small>                          <small> Free SSL Certficates</small>                           <small> Free COM Domain </small>
-                                <small> Free Private Nameservers.</small>
-                            </div>
-                            <button type='button' className='px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3' style={{ backgroundColor: '#009BDD' }}>Buy Now</button>
-                        </SwiperSlide>
+
 
                         <SwiperSlide>
-                            <img src="/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
-                            <div className='w-100 p-2 mt-3' style={{ backgroundColor: '#f1f1f1' }}>
-                                <h3 className='fs-5'>Economy Plan</h3>
-                            </div>
-                            <div className='w-100 p-2'>
-                                <h3 className='fs-5'>Rs.49 / Monthly</h3>
-                            </div>
-                            <div className='p-3' style={{ backgroundColor: '#f1f1f1', borderRadius: "4px" }}>
-                                <small> 75GB Of Storage</small>
-                                <small> Unlimited Bandwidth</small>
-                                <small> Addon Domains  </small>
-                                <small> Unlimited SubDomains</small>
-                                <small> Unlimited Email Accounts </small>                          <small> Unlimited Databases</small>                           <small> Free SSL Certificates </small>
-                                <small> Free.Com Domain</small>
-                                <small> Free Private Nameverses</small>
-                            </div>
-                            <button type='button' className='px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3' style={{ backgroundColor: '#009BDD' }}>Buy Now</button>
-                        </SwiperSlide>
-
-                        <SwiperSlide>
-                            <img src="/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
-                            <div className='w-100 p-2 mt-3' style={{ backgroundColor: '#f1f1f1' }}>
-                                <h3 className='fs-5'>Delux Plan</h3>
-                            </div>
-                            <div className='w-100 p-2'>
-                                <h3 className='fs-5'>Rs.8949 / Monthly</h3>
-                            </div>
-                            <div className='p-3' style={{ backgroundColor: '#f1f1f1', borderRadius: "4px" }}>
-                                <small> 100GB Of Storage</small>
-                                <small> Unlimited Bandwidth</small>
-                                <small> Addon Domains  </small>
-                                <small> Unlimited SubDomains</small>
-                                <small> Unlimited Email Accounts </small>                          <small> Unlimited Databases</small>                           <small> Free SSL Certificates </small>
-                                <small> Free.Com Domain</small>
-                                <small> Free Private Nameverses</small>
-                            </div>
-                            <button type='button' className='px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3' style={{ backgroundColor: '#009BDD' }}>Buy Now</button>
-                        </SwiperSlide>
-
-                        <SwiperSlide>
-                            <img src="/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
-                            <div className='w-100 p-2 mt-3' style={{ backgroundColor: '#f1f1f1' }}>
-                                <h3 className='fs-5'>Master Plan</h3>
-                            </div>
-                            <div className='w-100 p-2'>
-                                <h3 className='fs-5'>Rs.11749 / Monthly</h3>
-                            </div>
-                            <div className='p-3' style={{ backgroundColor: '#f1f1f1', borderRadius: "4px" }}>
-                                <small> 150GB Of Storage</small>
-                                <small> Unlimited Bandwidth</small>
-                                <small> Addon Domains  </small>
-                                <small> 5000 Subdomains </small>
-                                <small> Unlimited Email Accounts.</small>
-                                <small> Unlimited Databases </small>                          <small> Free SSL Certficates</small>                           <small> Free COM Domain </small>
-                                <small> Free Private Nameservers.</small>
-                            </div>
+                            <img src="https://www.phoenix.com/wp-content/uploads/green-circuit-board.jpg" className='h-full' style={{ maxWidth: '160px' , height:'50vh'}} alt="" />
+                         
                             <button type='button' className='px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3' style={{ backgroundColor: '#009BDD' }}>Buy Now</button>
                         </SwiperSlide>
 
 
                         <SwiperSlide>
-                            <img src="/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
-                            <div className='w-100 p-2 mt-3' style={{ backgroundColor: '#f1f1f1' }}>
-                                <h3 className='fs-5'>Bussiness Plan</h3>
-                            </div>
-                            <div className='w-100 p-2'>
-                                <h3 className='fs-5'>Rs.13499 / Monthly</h3>
-                            </div>
-                            <div className='p-3' style={{ backgroundColor: '#f1f1f1', borderRadius: "4px" }}>
-                                <small> 150GB Of Storage</small>
-                                <small> Unlimited Bandwidth</small>
-                                <small> Addon Domains  </small>
-                                <small> Unlimited Subdomains </small>
-                                <small> Unlimited Email Accounts.</small>
-                                <small> Unlimited Databases </small>                          <small> Free SSL Certficates</small>                           <small> Free COM Domain </small>
-                                <small> Free Private Nameservers.</small>
-                            </div>
+                            <img src="https://5.imimg.com/data5/TE/DC/GM/SELLER-1683937/local-control-panels-lcp--500x500.jpg" className='h-full' style={{ maxWidth: '160px' , height:'50vh'}} alt="" />
+                         
+                            <button type='button' className='px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3' style={{ backgroundColor: '#009BDD' }}>Buy Now</button>
+                        </SwiperSlide>
+
+
+                        <SwiperSlide>
+                            <img src="https://upsonlinestore.com/wp-content/uploads/2021/05/WPL150-12N-480x480-1.jpg" className='h-full' style={{ maxWidth: '160px' , height:'50vh'}} alt="" />
+                         
+                            <button type='button' className='px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3' style={{ backgroundColor: '#009BDD' }}>Buy Now</button>
+                        </SwiperSlide>
+
+
+                        <SwiperSlide>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9cYP5KO9DYNDolcPDOk60JZ-C3RWsdkB80g&s" className='h-full' style={{ maxWidth: '160px' , height:'50vh'}} alt="" />
+                         
+                            <button type='button' className='px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3' style={{ backgroundColor: '#009BDD' }}>Buy Now</button>
+                        </SwiperSlide>
+
+
+                        <SwiperSlide>
+                            <img src="https://e6f7jzv78yj.exactdn.com/wp-content/uploads/2017/08/Power-Cables-lineup-1170x585.jpg?strip=all&lossy=1&ssl=1" className='h-full' style={{ maxWidth: '160px' , height:'50vh'}} alt="" />
+                         
                             <button type='button' className='px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3' style={{ backgroundColor: '#009BDD' }}>Buy Now</button>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src="/resellerlogo.5edbcce7.png" style={{ maxWidth: '160px' }} alt="" />
-                            <div className='w-100 p-2 mt-3' style={{ backgroundColor: '#f1f1f1' }}>
-                                <h3 className='fs-5'>Unlimited Plan</h3>
-                            </div>
-                            <div className='w-100 p-2'>
-                                <h3 className='fs-5'>Rs.16349 / Monthly</h3>
-                            </div>
-                            <div className='p-3' style={{ backgroundColor: '#f1f1f1', borderRadius: "4px" }}>
-                                <small> 150GB Of Storage</small>
-                                <small> Unlimited Bandwidth</small>
-                                <small> Addon Domains  </small>
-                                <small> Unlimited Subdomains </small>
-                                <small> Unlimited Email Accounts.</small>
-                                <small> Unlimited Databases </small>                          <small> Free SSL Certficates</small>                           <small> Free COM Domain </small>
-                                <small> Free Private Nameservers.</small>
-                            </div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9bzXhZKO7f1JkZ3yqQzybkOLz-eIU7VTzsA&s" className='h-full' style={{ maxWidth: '160px' , height:'50vh'}} alt="" />
+                         
                             <button type='button' className='px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3' style={{ backgroundColor: '#009BDD' }}>Buy Now</button>
                         </SwiperSlide>
+                        <SwiperSlide>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyvQub-4-h9eNxHwjE9nd7ibYUq-M4mEbF9w&s" className='h-full' style={{ maxWidth: '160px' , height:'50vh'}} alt="" />
+                         
+                            <button type='button' className='px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3' style={{ backgroundColor: '#009BDD' }}>Buy Now</button>
+                        </SwiperSlide>
+                        {/* <SwiperSlide>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyvQub-4-h9eNxHwjE9nd7ibYUq-M4mEbF9w&s" className='h-full' style={{ maxWidth: '160px' , height:'50vh'}} alt="" />
+                         
+                            <button type='button' className='px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3' style={{ backgroundColor: '#009BDD' }}>Buy Now</button>
+                        </SwiperSlide> */}
                     </Swiper>
                 </div>
             </div>

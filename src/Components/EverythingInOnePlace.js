@@ -13,6 +13,7 @@ const EverythingInOnePlace = () => {
 
                     <div className="d-flex flex-wrap align-items-center justify-content-center">
                         <NavLink to='/services' ><button type="button">All</button></NavLink>
+                        <NavLink to='/hardware_and_services'><button type="button">Hardware</button></NavLink>
                         <NavLink to='/hosting_and_servers' > <button type="button">Hosting & Servers</button></NavLink>
                         <NavLink to='/smm'> <button type="button">Social Media Markteing </button></NavLink>
                         <NavLink to='/website_devlopment' > <button type="button">Website Devlopment</button></NavLink>

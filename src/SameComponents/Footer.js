@@ -18,6 +18,7 @@ const Footer = () => {
                                     <div className="col-md-6">
                                         <h4>Quick Links</h4>
                                         <ul className='p-0 m-0'>
+                                        <li><a href="">∘ Hardware & Services</a></li>
                                             <li><a href="">∘ Hosting & Servers</a></li>
                                             <li><a href="">∘ Application Devlopment</a></li>
                                             <li><a href="">∘ Website Development</a></li>

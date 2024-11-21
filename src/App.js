@@ -14,6 +14,7 @@ import WebApplication from './pages/WebApplication';
 import CompanyRegistration from './pages/CompanyRegistration';
 import RoboCalls from './pages/RoboCalls';
 import WhatsappApi from './pages/WhatsappApi';
+import Hardware from './pages/Hardware';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/services' element={<Services />} />
         <Route path='/hosting_and_servers' element={<HostingAndServers />} />
+        <Route path='/hardware_and_services' element={<Hardware />} />
         <Route path='/smm' element={<SocialMediaMarkeeting />} />
         <Route path='/website_devlopment' element={<WebsiteDevlopment />} />
         <Route path='/mobile_application_page' element={<MobileApplicationPage />} />
