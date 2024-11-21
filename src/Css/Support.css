@@ -1,0 +1,18 @@
+.support .col-md-6:first-child{
+    background-image: url('https://i.ibb.co/XDTKLkx/Untitled-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.support .container{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important; 
+    border-radius: 10px;
+}
+@media screen and (max-width:767px){
+    .none{
+        display: none !important;
+    }
+    .bg{
+        background-image: url('https://i.ibb.co/XDTKLkx/Untitled-1.jpg');
+    }
+}

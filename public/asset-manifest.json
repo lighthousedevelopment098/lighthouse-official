@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2c390942.css",
+    "main.js": "/static/js/main.e3c21693.js",
+    "static/js/787.628dc0ac.chunk.js": "/static/js/787.628dc0ac.chunk.js",
+    "static/media/Untitled-1.jpg": "/static/media/Untitled-1.9cb0413eeb2641cad23a.jpg",
+    "static/media/lighthouselogo.png": "/static/media/lighthouselogo.1480699e9f5f8abdc87e.png",
+    "index.html": "/index.html",
+    "main.2c390942.css.map": "/static/css/main.2c390942.css.map",
+    "main.e3c21693.js.map": "/static/js/main.e3c21693.js.map",
+    "787.628dc0ac.chunk.js.map": "/static/js/787.628dc0ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c390942.css",
+    "static/js/main.e3c21693.js"
+  ]
+}
