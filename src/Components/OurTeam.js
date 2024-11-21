@@ -7,7 +7,7 @@ import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 const OurTeam = () => {
     const teamObj = [
-        { img: '/t3.45457b6b.png', name: 'UZAIR MIRZA', job: "Project Manager" },
+        { img: '/t3.45457b6b.png', name: 'UZAIR MIRZA', job: "CEO" },
         { img: '/t4.bdbbaba8.png', name: 'AFAQ AHEMD', job: "UI/UX Designer" },
         { img: '/t5.51bd0487.png', name: 'FAHAD ABBASI', job: ".Net Developer" },
         { img: '/t6.a52ac0a2.png', name: 'JOE EVORA', job: "Marketing Manager" },
@@ -17,7 +17,7 @@ const OurTeam = () => {
         { img: '/t10.d56f99c6.png', name: 'SAIMAN KHAN', job: "Ruby Developer" },
         { img: '/t11.6e90b402.png', name: 'BILAL TARIQ', job: "Assistant Manager" },
         { img: '/t2.831e3d60.png', name: 'ARI AKASH', job: "Director & Co-founder" },
-        { img: '/t1.200a0ead.jpeg', name: 'ASHER VICTOR', job: "CEO (Chief Excetive Officer)" }
+        // { img: '/t1.200a0ead.jpeg', name: 'ASHER VICTOR', job: "CEO (Chief Excetive Officer)" }
     ]
     return (
         <div className="ourTeam py-5 text-center" >
