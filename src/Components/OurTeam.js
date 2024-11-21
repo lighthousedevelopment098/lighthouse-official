@@ -7,17 +7,17 @@ import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 const OurTeam = () => {
     const teamObj = [
-        { img: 'https://wolftechs.pk/_next/static/media/t3.45457b6b.png', name: 'UZAIR MIRZA', job: "Project Manager" },
-        { img: 'https://wolftechs.pk/_next/static/media/t4.bdbbaba8.png', name: 'AFAQ AHEMD', job: "UI/UX Designer" },
-        { img: 'https://wolftechs.pk/_next/static/media/t5.51bd0487.png', name: 'FAHAD ABBASI', job: ".Net Developer" },
-        { img: 'https://wolftechs.pk/_next/static/media/t6.a52ac0a2.png', name: 'JOE EVORA', job: "Marketing Manager" },
-        { img: 'https://wolftechs.pk/_next/static/media/t7.9cc6c8c0.png', name: 'SHOAIB MANZOOR', job: "Network Administator" },
-        { img: 'https://wolftechs.pk/_next/static/media/t8.fc8d3265.png', name: 'HANAN QADRI', job: "React Native Developer" },
-        { img: 'https://wolftechs.pk/_next/static/media/t9.d6663976.png', name: 'MUHAMMAD RIZWAN', job: "Tax Expert" },
-        { img: 'https://wolftechs.pk/_next/static/media/t10.d56f99c6.png', name: 'SAIMAN KHAN', job: "Ruby Developer" },
-        { img: 'https://wolftechs.pk/_next/static/media/t11.6e90b402.png', name: 'BILAL TARIQ', job: "Assistant Manager" },
-        { img: 'https://wolftechs.pk/_next/static/media/t2.831e3d60.png', name: 'ARI AKASH', job: "Director & Co-founder" },
-        { img: 'https://wolftechs.pk/_next/static/media/t1.200a0ead.jpeg', name: 'ASHER VICTOR', job: "CEO (Chief Excetive Officer)" }
+        { img: '/t3.45457b6b.png', name: 'UZAIR MIRZA', job: "Project Manager" },
+        { img: '/t4.bdbbaba8.png', name: 'AFAQ AHEMD', job: "UI/UX Designer" },
+        { img: '/t5.51bd0487.png', name: 'FAHAD ABBASI', job: ".Net Developer" },
+        { img: '/t6.a52ac0a2.png', name: 'JOE EVORA', job: "Marketing Manager" },
+        { img: '/t7.9cc6c8c0.png', name: 'SHOAIB MANZOOR', job: "Network Administator" },
+        { img: '/t8.fc8d3265.png', name: 'HANAN QADRI', job: "React Native Developer" },
+        { img: '/t9.d6663976.png', name: 'MUHAMMAD RIZWAN', job: "Tax Expert" },
+        { img: '/t10.d56f99c6.png', name: 'SAIMAN KHAN', job: "Ruby Developer" },
+        { img: '/t11.6e90b402.png', name: 'BILAL TARIQ', job: "Assistant Manager" },
+        { img: '/t2.831e3d60.png', name: 'ARI AKASH', job: "Director & Co-founder" },
+        { img: '/t1.200a0ead.jpeg', name: 'ASHER VICTOR', job: "CEO (Chief Excetive Officer)" }
     ]
     return (
         <div className="ourTeam py-5 text-center" >

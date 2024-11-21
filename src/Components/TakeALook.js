@@ -7,9 +7,9 @@ const TakeALook = () => {
             <div className="container">
                 <div className="row justify-content-evenly align-items-center">
                     <div className="col-md-4 mb-3 takeAlookBox  d-flex justify-content-end p-0">
-                        <img src="https://wolftechs.pk/_next/static/media/fun-3d-girl-yelllow-side.ef21ed27.png" className='girlImg' alt="girl" />
+                        <img src="/fun-3d-girl-yelllow-side.ef21ed27.png" className='girlImg' alt="girl" />
 
-                        <img src="https://wolftechs.pk/_next/static/media/projectsBanner.6e34600a.jpg" alt="laptop" className='' style={{ maxWidth: '347px', height: '290px' }} />
+                        <img src="/projectsBanner.6e34600a.jpg" alt="laptop" className='' style={{ maxWidth: '347px', height: '290px' }} />
                     </div>
                     <div className="col-md-6">
                         <h2 className='mb-5'>Take a look on our <span className="borderBottom greenColor">Projects.</span></h2>

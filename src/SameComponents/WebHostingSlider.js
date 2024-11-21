@@ -43,7 +43,7 @@ const WebHostingSlider = () => {
                         }}
                     >
                         <SwiperSlide>
-                            <img src="https://wolftechs.pk/_next/static/media/sharedlogo.dd662a0f.png" style={{ maxWidth: '160px' }} alt="" />
+                            <img src="/sharedlogo.dd662a0f.png" style={{ maxWidth: '160px' }} alt="" />
                             <div className='w-100 p-2 mt-3' style={{ backgroundColor: '#f1f1f1' }}>
                                 <h3 className='fs-5'>Starter Plan</h3>
                             </div>
@@ -65,7 +65,7 @@ const WebHostingSlider = () => {
 
 
                         <SwiperSlide>
-                            <img src="https://wolftechs.pk/_next/static/media/sharedlogo.dd662a0f.png" style={{ maxWidth: '160px' }} alt="" />
+                            <img src="/sharedlogo.dd662a0f.png" style={{ maxWidth: '160px' }} alt="" />
                             <div className='w-100 p-2 mt-3' style={{ backgroundColor: '#f1f1f1' }}>
                                 <h3 className='fs-5'>Economy Plan</h3>
                             </div>
@@ -86,7 +86,7 @@ const WebHostingSlider = () => {
                         </SwiperSlide>
                     
                         <SwiperSlide>
-                            <img src="https://wolftechs.pk/_next/static/media/sharedlogo.dd662a0f.png" style={{ maxWidth: '160px' }} alt="" />
+                            <img src="/sharedlogo.dd662a0f.png" style={{ maxWidth: '160px' }} alt="" />
                             <div className='w-100 p-2 mt-3' style={{ backgroundColor: '#f1f1f1' }}>
                                 <h3 className='fs-5'>Delux Plan</h3>
                             </div>
@@ -107,7 +107,7 @@ const WebHostingSlider = () => {
                         </SwiperSlide>
                     
                         <SwiperSlide>
-                            <img src="https://wolftechs.pk/_next/static/media/sharedlogo.dd662a0f.png" style={{ maxWidth: '160px' }} alt="" />
+                            <img src="/sharedlogo.dd662a0f.png" style={{ maxWidth: '160px' }} alt="" />
                             <div className='w-100 p-2 mt-3' style={{ backgroundColor: '#f1f1f1' }}>
                                 <h3 className='fs-5'>Unlimited Plan</h3>
                             </div>

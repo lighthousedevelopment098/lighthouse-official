@@ -11,12 +11,12 @@ const TwoDifferentApis = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6 d-flex flex-column align-items-center">
-                                <button className='border-0 mb-3 px-5 py-2 ' style={{ borderRadius: '10px' }}><img src="https://wolftechs.pk/_next/static/media/whatsappgb.96705183.png" style={{ maxWidth: '35px' }} className='me-2' alt="" />Official API</button>
+                                <button className='border-0 mb-3 px-5 py-2 ' style={{ borderRadius: '10px' }}><img src="/whatsappgb.96705183.png" style={{ maxWidth: '35px' }} className='me-2' alt="" />Official API</button>
                                 <b className='text-white mb-3 fs-5'>Monthly $19.99</b>
                                 <button className='px-5 py-2 fw-bold border-0' style={{ backgroundColor: '#009bdd', borderRadius: '10px' }}>Buy Now</button>
                             </div>
                             <div className="col-md-6 d-flex flex-column align-items-center">
-                                <button className='border-0 mb-3 px-5 py-2 ' style={{ borderRadius: '10px' }}><img src="https://wolftechs.pk/_next/static/media/whatsappgb.96705183.png" style={{ maxWidth: '35px' }} className='me-2' alt="" />Non Official API</button>
+                                <button className='border-0 mb-3 px-5 py-2 ' style={{ borderRadius: '10px' }}><img src="/whatsappgb.96705183.png" style={{ maxWidth: '35px' }} className='me-2' alt="" />Non Official API</button>
                                 <b className='text-white mb-3 fs-5'>Monthly $8.99</b>
                                 <button className='px-5 py-2 fw-bold border-0' style={{ backgroundColor: '#009bdd', borderRadius: '10px' }}>Buy Now</button>
                             </div>

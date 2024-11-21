@@ -26,17 +26,17 @@ const OurBestProjects = () => {
                             <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab" >
                                 <div className="row justify-content-between">
                                     <div className="bestProjectsBoxes rounded-3 bg-transparent p-3" style={{ border: '4px solid #903519', color: 'white' }}>
-                                        <img src="https://wolftechs.pk/_next/static/media/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
+                                        <img src="/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
                                         <h5 style={{ cursor: 'pointer' }}>Rooi Boos</h5>
 
                                     </div>
                                     <div className="bestProjectsBoxes rounded-3 bg-transparent p-3" style={{ border: '4px solid #903519', color: 'white' }}>
-                                        <img src="https://wolftechs.pk/_next/static/media/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
+                                        <img src="/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
                                         <h5 style={{ cursor: 'pointer' }}>Rooi Boos</h5>
 
                                     </div>
                                     <div className="bestProjectsBoxes rounded-3 bg-transparent p-3" style={{ border: '4px solid #903519', color: 'white' }}>
-                                        <img src="https://wolftechs.pk/_next/static/media/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
+                                        <img src="/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
                                         <h5 style={{ cursor: 'pointer' }}>Rooi Boos</h5>
 
                                     </div>
@@ -46,17 +46,17 @@ const OurBestProjects = () => {
                             <div className="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                             <div className="row justify-content-between">
                                     <div className="bestProjectsBoxes rounded-3 bg-transparent p-3" style={{ border: '4px solid #903519', color: 'white' }}>
-                                        <img src="https://wolftechs.pk/_next/static/media/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
+                                        <img src="/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
                                         <h5 style={{ cursor: 'pointer' }}>Rooi Boos</h5>
 
                                     </div>
                                     <div className="bestProjectsBoxes rounded-3 bg-transparent p-3" style={{ border: '4px solid #903519', color: 'white' }}>
-                                        <img src="https://wolftechs.pk/_next/static/media/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
+                                        <img src="/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
                                         <h5 style={{ cursor: 'pointer' }}>Rooi Boos</h5>
 
                                     </div>
                                     <div className="bestProjectsBoxes rounded-3 bg-transparent p-3" style={{ border: '4px solid #903519', color: 'white' }}>
-                                        <img src="https://wolftechs.pk/_next/static/media/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
+                                        <img src="/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
                                         <h5 style={{ cursor: 'pointer' }}>Rooi Boos</h5>
 
                                     </div>
@@ -66,17 +66,17 @@ const OurBestProjects = () => {
                             <div className="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                             <div className="row justify-content-between">
                                     <div className="bestProjectsBoxes rounded-3 bg-transparent p-3" style={{ border: '4px solid #903519', color: 'white' }}>
-                                        <img src="https://wolftechs.pk/_next/static/media/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
+                                        <img src="/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
                                         <h5 style={{ cursor: 'pointer' }}>Rooi Boos</h5>
 
                                     </div>
                                     <div className="bestProjectsBoxes rounded-3 bg-transparent p-3" style={{ border: '4px solid #903519', color: 'white' }}>
-                                        <img src="https://wolftechs.pk/_next/static/media/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
+                                        <img src="/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
                                         <h5 style={{ cursor: 'pointer' }}>Rooi Boos</h5>
 
                                     </div>
                                     <div className="bestProjectsBoxes rounded-3 bg-transparent p-3" style={{ border: '4px solid #903519', color: 'white' }}>
-                                        <img src="https://wolftechs.pk/_next/static/media/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
+                                        <img src="/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
                                         <h5 style={{ cursor: 'pointer' }}>Rooi Boos</h5>
 
                                     </div>
@@ -85,17 +85,17 @@ const OurBestProjects = () => {
                             <div className="tab-pane fade" id="ecommerce" role="tabpanel" aria-labelledby="ecommerce-tab">
                                 <div className="row justify-content-between">
                                     <div className="bestProjectsBoxes rounded-3 bg-transparent p-3" style={{ border: '4px solid #903519', color: 'white' }}>
-                                        <img src="https://wolftechs.pk/_next/static/media/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
+                                        <img src="/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
                                         <h5 style={{ cursor: 'pointer' }}>Rooi Boos</h5>
 
                                     </div>
                                     <div className="bestProjectsBoxes rounded-3 bg-transparent p-3" style={{ border: '4px solid #903519', color: 'white' }}>
-                                        <img src="https://wolftechs.pk/_next/static/media/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
+                                        <img src="/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
                                         <h5 style={{ cursor: 'pointer' }}>Rooi Boos</h5>
 
                                     </div>
                                     <div className="bestProjectsBoxes rounded-3 bg-transparent p-3" style={{ border: '4px solid #903519', color: 'white' }}>
-                                        <img src="https://wolftechs.pk/_next/static/media/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
+                                        <img src="/RooiBoos.f622512b.png" className='img-fluid rounded-3 mb-3' alt="" />
                                         <h5 style={{ cursor: 'pointer' }}>Rooi Boos</h5>
 
                                     </div>

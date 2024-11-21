@@ -8,8 +8,8 @@ const ResellerPackege = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 d-flex justify-content-end">
-                            <img  src="https://wolftechs.pk/_next/static/media/fun-3d-girl-yelllow-side.ef21ed27.png" className='position-absolute none' alt="" style={{maxWidth:"200px",left:"80px"}} />
-                            <img src="https://wolftechs.pk/_next/static/media/resellerbanner.4e3e063f.png" style={{width:"90%"}}  alt="" className='fullW' />
+                            <img  src="/fun-3d-girl-yelllow-side.ef21ed27.png" className='position-absolute none' alt="" style={{maxWidth:"200px",left:"80px"}} />
+                            <img src="/resellerbanner.4e3e063f.png" style={{width:"90%"}}  alt="" className='fullW' />
                         </div>
                     </div>
                 </div>

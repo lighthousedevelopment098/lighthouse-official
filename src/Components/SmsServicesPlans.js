@@ -45,7 +45,7 @@ const SmsServicesPlans = () => {
                         }}
                     >
                         <SwiperSlide>
-                            <SmsCard img='https://wolftechs.pk/_next/static/media/sms.7e01d7fb.png'
+                            <SmsCard img='/sms.7e01d7fb.png'
                                 length='10k SMS'
                                 pOne='Validity : 365'
                                 pTwo='Free Masking : 0'
@@ -58,7 +58,7 @@ const SmsServicesPlans = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <SmsCard img='https://wolftechs.pk/_next/static/media/sms.7e01d7fb.png'
+                            <SmsCard img='/sms.7e01d7fb.png'
                                 length='25k SMS'
                                 pOne='Validity : 360'
                                 pTwo='Free Masking : 0'
@@ -71,7 +71,7 @@ const SmsServicesPlans = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <SmsCard img='https://wolftechs.pk/_next/static/media/sms.7e01d7fb.png'
+                            <SmsCard img='/sms.7e01d7fb.png'
                                 length='100k SMS'
                                 pOne='Validity : 365'
                                 pTwo='Free Masking : 1'
@@ -84,7 +84,7 @@ const SmsServicesPlans = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <SmsCard img='https://wolftechs.pk/_next/static/media/sms.7e01d7fb.png'
+                            <SmsCard img='/sms.7e01d7fb.png'
                                 length='10k SMS'
                                 pOne='Validity : 365'
                                 pTwo='Free Masking : 0'
@@ -97,7 +97,7 @@ const SmsServicesPlans = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <SmsCard img='https://wolftechs.pk/_next/static/media/sms.7e01d7fb.png'
+                            <SmsCard img='/sms.7e01d7fb.png'
                                 length='10k SMS'
                                 pOne='Validity : 365'
                                 pTwo='Free Masking : 0'
@@ -110,7 +110,7 @@ const SmsServicesPlans = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <SmsCard img='https://wolftechs.pk/_next/static/media/sms.7e01d7fb.png'
+                            <SmsCard img='/sms.7e01d7fb.png'
                                 length='10k SMS'
                                 pOne='Validity : 365'
                                 pTwo='Free Masking : 0'
@@ -166,7 +166,7 @@ const SmsServicesPlans = () => {
                     >
                         <SwiperSlide>
                             <SmsCard
-                                img='https://wolftechs.pk/_next/static/media/csr.62a65372.png'
+                                img='/csr.62a65372.png'
                                 length='BASIC PLAN'
                                 pOne='Sms Quantity : 2k'
                                 pTwo='Validity Days : 30'
@@ -179,7 +179,7 @@ const SmsServicesPlans = () => {
 
                         <SwiperSlide>
                             <SmsCard
-                                img='https://wolftechs.pk/_next/static/media/csr.62a65372.png'
+                                img='/csr.62a65372.png'
                                 length='STANDARD PLAN'
                                 pOne='Sms Quantity : 5k'
                                 pTwo='Validity Days : 60'
@@ -192,7 +192,7 @@ const SmsServicesPlans = () => {
 
                         <SwiperSlide>
                             <SmsCard
-                                img='https://wolftechs.pk/_next/static/media/csr.62a65372.png'
+                                img='/csr.62a65372.png'
                                 length='GOLDEN PLAN'
                                 pOne='Sms Quantity : 10k'
                                 pTwo='Validity Days : 90'
@@ -204,7 +204,7 @@ const SmsServicesPlans = () => {
 
                         <SwiperSlide>
                             <SmsCard
-                                img='https://wolftechs.pk/_next/static/media/csr.62a65372.png'
+                                img='/csr.62a65372.png'
                                 length='DAIMOND PLAN'
                                 pOne='Sms Quantity : 23k'
                                 pTwo='Validity Days : 90'

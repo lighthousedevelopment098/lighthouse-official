@@ -28,7 +28,7 @@ const Articls = () => {
                     </div>
                 </div>
                     <div className="imgBox">
-                        <img src="https://wolftechs.pk/_next/static/media/newsArticleBannerImg.65c84749.jpg" alt="laptops" className='img-fluid' />
+                        <img src="/newsArticleBannerImg.65c84749.jpg" alt="laptops" className='img-fluid' />
                     </div>
             </div>
         </>

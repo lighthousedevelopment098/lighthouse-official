@@ -37,25 +37,25 @@ const TestimonialSlider = () => {
                     }}
                 >
                     <SwiperSlide>
-                        <TestimonialSliderBox img='https://wolftechs.pk/_next/static/media/GirlTestimon.459bc6d8.png' name='Emma Wick' detail='CEO, Tech Solutions Inc.' comment='We entrusted Wolftech Pvt Ltd for intricate financial software, and their exemplary delivery surpassed expectations. Their expertise makes them highly recommended for financial software requirements.' />
+                        <TestimonialSliderBox img='/GirlTestimon.459bc6d8.png' name='Emma Wick' detail='CEO, Tech Solutions Inc.' comment='We entrusted Wolftech Pvt Ltd for intricate financial software, and their exemplary delivery surpassed expectations. Their expertise makes them highly recommended for financial software requirements.' />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <TestimonialSliderBox img='https://wolftechs.pk/_next/static/media/GirlTestimon.459bc6d8.png' name='Sarah M.' detail='Marketing Manager' comment='Wolftechs Pvt Ltd uniquely stood out during our collaboration. Their skilled team brought our vision to life impeccably, showcasing innovation, timely delivery, and effective communication. Highly recommended for software development.' />
+                        <TestimonialSliderBox img='/GirlTestimon.459bc6d8.png' name='Sarah M.' detail='Marketing Manager' comment='Wolftechs Pvt Ltd uniquely stood out during our collaboration. Their skilled team brought our vision to life impeccably, showcasing innovation, timely delivery, and effective communication. Highly recommended for software development.' />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <TestimonialSliderBox img='https://wolftechs.pk/_next/static/media/testboy.d7eff128.png' name='Robert S.' detail='Head of Opreations' comment='Wolftechs Pvt Ltd is pivotal in our digital transformation. Their adeptness modernized legacy systems, integrating tech seamlessly. Professionalism and deadline commitment make them integral to our growth strategy.' />
+                        <TestimonialSliderBox img='/testboy.d7eff128.png' name='Robert S.' detail='Head of Opreations' comment='Wolftechs Pvt Ltd is pivotal in our digital transformation. Their adeptness modernized legacy systems, integrating tech seamlessly. Professionalism and deadline commitment make them integral to our growth strategy.' />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <TestimonialSliderBox img='https://wolftechs.pk/_next/static/media/GirlTestimon.459bc6d8.png' name='Emily R.' detail='IT Director' comment='Wolftechs Pvt Ltd proves indispensable to our IT unit, offering tailored software enhancing efficiency. Their meticulousness and post-launch assistance are remarkable, revolutionizing our organizations operations.' />
+                        <TestimonialSliderBox img='/GirlTestimon.459bc6d8.png' name='Emily R.' detail='IT Director' comment='Wolftechs Pvt Ltd proves indispensable to our IT unit, offering tailored software enhancing efficiency. Their meticulousness and post-launch assistance are remarkable, revolutionizing our organizations operations.' />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <TestimonialSliderBox img='https://wolftechs.pk/_next/static/media/testboy.d7eff128.png' name='Umar M.' detail='Financial Experts Ltd.' comment='We entrusted Wolftech Pvt Ltd for intricate financial software, and their exemplary delivery surpassed expectations. Their expertise makes them highly recommended for financial software requirements.' />
+                        <TestimonialSliderBox img='/testboy.d7eff128.png' name='Umar M.' detail='Financial Experts Ltd.' comment='We entrusted Wolftech Pvt Ltd for intricate financial software, and their exemplary delivery surpassed expectations. Their expertise makes them highly recommended for financial software requirements.' />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <TestimonialSliderBox img='https://wolftechs.pk/_next/static/media/GirlTestimon.459bc6d8.png' name='Jennifer P.' detail='Startup Founder    ' comment='As a startup founder, selecting the ideal software partner was vital. Wolftechs Pvt Ltd grasped our vision, enabling agile development that translated into product success through their expertise and dedication.' />
+                        <TestimonialSliderBox img='/GirlTestimon.459bc6d8.png' name='Jennifer P.' detail='Startup Founder    ' comment='As a startup founder, selecting the ideal software partner was vital. Wolftechs Pvt Ltd grasped our vision, enabling agile development that translated into product success through their expertise and dedication.' />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <TestimonialSliderBox img='https://wolftechs.pk/_next/static/media/testboy.d7eff128.png' name='Haris K.' detail='CTO, Tech Solutions Inc.' comment='We entrusted Wolftech Pvt Ltd for intricate financial software, and their exemplary delivery surpassed expectations. Their expertise makes them highly recommended for financial software requirements.' />
+                        <TestimonialSliderBox img='/testboy.d7eff128.png' name='Haris K.' detail='CTO, Tech Solutions Inc.' comment='We entrusted Wolftech Pvt Ltd for intricate financial software, and their exemplary delivery surpassed expectations. Their expertise makes them highly recommended for financial software requirements.' />
                     </SwiperSlide>
 
                 </Swiper>

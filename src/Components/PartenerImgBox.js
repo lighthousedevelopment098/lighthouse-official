@@ -5,12 +5,12 @@ const PartenerImgBox = () => {
     return (
         <>
             <div className="partnerImgBox flex-wrap d-flex align-items-center justify-content-between">
-                <PartnerImg img='https://wolftechs.pk/_next/static/media/4-min.23f82be8.png' />
-                <PartnerImg img='https://wolftechs.pk/_next/static/media/2-min.6b388708.png' />
-                <PartnerImg img='https://wolftechs.pk/_next/static/media/6_min.1080758a.png' />
-                <PartnerImg img='https://wolftechs.pk/_next/static/media/1-min.be88ca7c.png' />
-                <PartnerImg img='https://wolftechs.pk/_next/static/media/5_min.725369aa.png' />
-                <PartnerImg img='https://wolftechs.pk/_next/static/media/3_min.da467236.png' />
+                <PartnerImg img='/4-min.23f82be8.png' />
+                <PartnerImg img='/2-min.6b388708.png' />
+                <PartnerImg img='/6_min.1080758a.png' />
+                <PartnerImg img='/1-min.be88ca7c.png' />
+                <PartnerImg img='/5_min.725369aa.png' />
+                <PartnerImg img='/3_min.da467236.png' />
             </div>
         </>
     )

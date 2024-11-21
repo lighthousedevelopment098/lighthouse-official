@@ -49,37 +49,37 @@ const BoostSalesSlider = () => {
                     >
                         <SwiperSlide>
                             <div className="d-flex flex-column">
-                                <img src="https://wolftechs.pk/_next/static/media/smm1.427496cf.jpeg" alt="" />
+                                <img src="/media/smm1.427496cf.jpeg" alt="" />
                                 <button className='w-100 mt-3 py-2 fw-bold border-0'>Buy Now</button>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="d-flex flex-column">
-                                <img src="https://wolftechs.pk/_next/static/media/smm2.0426dcd7.jpeg" alt="" />
+                                <img src="/media/smm2.0426dcd7.jpeg" alt="" />
                                 <button className='w-100 mt-3 py-2 fw-bold border-0'>Buy Now</button>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="d-flex flex-column">
-                                <img src="https://wolftechs.pk/_next/static/media/smm3.0a61543b.jpeg" alt="" />
+                                <img src="/media/smm3.0a61543b.jpeg" alt="" />
                                 <button className='w-100 mt-3 py-2 fw-bold border-0'>Buy Now</button>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="d-flex flex-column">
-                                <img src="https://wolftechs.pk/_next/static/media/smm4.f9ca26d2.jpeg" alt="" />
+                                <img src="/media/smm4.f9ca26d2.jpeg" alt="" />
                                 <button className='w-100 mt-3 py-2 fw-bold border-0'>Buy Now</button>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="d-flex flex-column">
-                                <img src="https://wolftechs.pk/_next/static/media/smm4.f9ca26d2.jpeg" alt="" />
+                                <img src="/media/smm4.f9ca26d2.jpeg" alt="" />
                                 <button className='w-100 mt-3 py-2 fw-bold border-0'>Buy Now</button>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="d-flex flex-column">
-                                <img src="https://wolftechs.pk/_next/static/media/smm6.becca37b.jpeg" alt="" />
+                                <img src="/media/smm6.becca37b.jpeg" alt="" />
                                 <button className='w-100 mt-3 py-2 fw-bold border-0'>Buy Now</button>
                             </div>
                         </SwiperSlide>

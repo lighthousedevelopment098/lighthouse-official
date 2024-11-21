@@ -17,8 +17,8 @@ const MakeYourCompanyOffical = () => {
                         <p><b style={{ color: '#903519' }}>Access to Funding and Investment: </b> Registered companies have better access to funding options, such as bank loans, grants, and investment opportunities. Financial institutions and investors are more likely to support registered entities due to their legal compliance and accountability.</p>
                     </div>
                     <div className="col-md-5 d-flex flex-column align-items-center jusitfy-content-cetner">
-                        <img src="https://wolftechs.pk/_next/static/media/companyWidget.275e1962.png" className='img-fluid' alt="" />
-                        <img src="https://wolftechs.pk/_next/static/media/approvedBy.36ee60bd.png" alt="" className='img-fluid' />
+                        <img src="/companyWidget.275e1962.png" className='img-fluid' alt="" />
+                        <img src="/approvedBy.36ee60bd.png" alt="" className='img-fluid' />
                     </div>
                 </div>
                 <div className="row mt-5 text-start">
