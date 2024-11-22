@@ -43,7 +43,7 @@ const Home = () => {
             <Articls />
             <AppDevlopment />
             <OurSuccessPartners />
-            <PartenerImgBox />
+            {/* <PartenerImgBox /> */}
             <DigitalRealities />
             <TheBestTimeToStart />
             <Footer />

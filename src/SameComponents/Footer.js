@@ -10,7 +10,7 @@ const Footer = () => {
                             <div className="col-md-6" style={{ background: 'linear-gradient(180deg, #903519 0%, #903519 100%)', borderRadius: "15px", padding: '30px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', justifyContent:'center' }}>
                                 <h2>Ready To Built Your Ideas Into Reality.</h2>
                                 <h3>THE BEST TIME TO START IS NOW!
-                                    0335-9243703</h3>
+                                    0336 5060108</h3>
                                 <button type="button">Get In Touch</button>
                             </div>
                             <div className="col-md-6 ps-5">
@@ -33,11 +33,11 @@ const Footer = () => {
                                     <div className="col-md-6">
                                         <h4>Say Hello</h4>
                                         <ul className='p-0 m-0'>
-                                            <li><a href="">∘ +92-331-1110559</a></li>
-                                            <li><a href="">∘ +92-355-7407567</a></li>
-                                            <li><a href="">∘ Hello@wolftechs.pk</a></li>
-                                            <li><a href="">∘ Hello@wolftechscloud.com</a></li>
-                                            <li><a href="">∘ www.wolftechs.pk</a></li>
+                                            <li><a href="">∘ +92- 336-5060108</a></li>
+                                            {/* <li><a href="">∘ +92-355-7407567</a></li> */}
+                                            <li><a href="">∘ lighthousedev2024@gmail.com</a></li>
+                                            <li><a href="">∘ admin@lhd-pk.com</a></li>
+                                            <li><a href="">∘ info@lhd-pk.com</a></li>
                                             <li>
                                                 <div className="d-flex socialLinks">
                                                     <a href="">
