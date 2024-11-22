@@ -52,7 +52,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                              CPU Installation and Setup
+                              CPU 
                             </button>
                         </SwiperSlide>
 
@@ -84,7 +84,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                                Computer Hardware Upgrades
+                                Computer Hardware 
 
                             </button>
                         </SwiperSlide>
@@ -101,7 +101,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                                Server Settings
+                                Server
                             </button>
                         </SwiperSlide>
 
@@ -117,7 +117,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                               Battery Installation 
+                               Batteries 
                             </button>
                         </SwiperSlide>
 
@@ -133,7 +133,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                                Electrical Wiring Installation
+                                Electrical Wiring 
                             </button>
                         </SwiperSlide>
 
@@ -149,7 +149,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                               Fyber Wiring Installation
+                               Fyber Wiring 
                             </button>
                         </SwiperSlide>
 
@@ -165,7 +165,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                                Industrial Equipment Repairs
+                                Industrial Equipment 
                             </button>
                         </SwiperSlide>
 
@@ -181,7 +181,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                                Boards Repairs
+                                Boards
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -196,7 +196,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                                Home Appliance Repairs
+                                Home Appliance 
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -211,7 +211,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                                Computer Hardware Upgrades
+                                Computer Hardware 
 
                             </button>
                         </SwiperSlide>
@@ -227,7 +227,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                                Laptop Screen Replacements
+                                Laptop Screens
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -242,7 +242,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                                Smartphone Screen Repairs
+                                Smartphone Screens
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -257,7 +257,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                                TV Mounting and Setup
+                                TV Mounting 
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -272,7 +272,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                                Washing Machine Installation
+                                Washing Machines
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -287,7 +287,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                               Refrigerator Repair Services
+                               Refrigerator 
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -302,7 +302,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                                Air Conditioner Installation 
+                                Air Conditioner 
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -317,7 +317,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                                Microwave Repair  
+                                Microwave  
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -332,7 +332,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                               Dishwasher Installation
+                               Dishwasher 
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -377,7 +377,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                               Firewall Installation
+                               Firewall 
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -407,7 +407,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                              USB Hub Installation & Setup
+                              USB Hub 
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -421,7 +421,7 @@ const ResellerSlider = () => {
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
-                            >Gateway Installation 
+                            >Gateway 
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -436,7 +436,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                               Network Bridge Installation
+                               Network Bridge 
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -466,7 +466,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                               Repeater Installation
+                               Repeater 
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -481,7 +481,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                               Load Balancer Setup
+                               Load Balancer 
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -496,7 +496,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                              Proxy Server Setup
+                              Proxy Server 
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -511,7 +511,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                              Plumbing Hardware Installation
+                              Plumbing Hardware 
                             </button>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -526,7 +526,7 @@ const ResellerSlider = () => {
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
                                 style={{ backgroundColor: '#009BDD' }}
                             >
-                               Lighting Fixture Installation
+                               Lighting Fixture 
                             </button>
                         </SwiperSlide>
                       

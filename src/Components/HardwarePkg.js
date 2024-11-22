@@ -5,6 +5,8 @@ const HardwarePkg = () => {
         <>
             <div className="ResellerPackege text-center p-5" style={{backgroundColor:'black'}}>
                 <h2 className="borderBottom mb-5">Hardware <span className="greenColor">Services</span></h2>
+
+                <p >We are providing  all these services</p>
                 {/* <div className="container">
                     <div className="row">
                         <div className="col-md-12 d-flex justify-content-end">

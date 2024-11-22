@@ -13,7 +13,7 @@ const DigitalRealities = () => {
                         <h2>Pakistan</h2>
                         <div className="row">
                             <div className="col-md-4  " >
-                                <PersonalInfo icon='fa-solid fa-envelope' location='Email' info='admin@lhd-pk.com' />
+                                <PersonalInfo icon='fa-solid fa-envelope' location='Email' info='Info@lhd-pk.com' />
                                 
                             </div>
 
@@ -26,7 +26,7 @@ const DigitalRealities = () => {
                             </div>
 
                         </div>
-                        <h2 className='mt-2'>Canada</h2>
+                        {/* <h2 className='mt-2'>Canada</h2>
                         <div className="row">
                             <div className="col-md-4 ">
                                 <PersonalInfo icon='fa-solid fa-envelope' location='Email' info='Info@lhd-pk.com' />
@@ -35,9 +35,9 @@ const DigitalRealities = () => {
                                 <PersonalInfo icon='fa-solid fa-location-dot' location='Location' info='Vancouver: 3077 Granville St #100, Vancouver, BC V6H 3J9' />
                             </div>
                             <div className="col-md-4 ">
-                                <PersonalInfo icon='fa-solid fa-headset' location='Location' info='+923365060108' />
+                                <PersonalInfo icon='fa-solid fa-headset' location='Location' info='+923007972' />
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
