@@ -11,17 +11,27 @@ import OurTeam from '../Components/OurTeam'
 const About = () => {
     const bg1 = '/about_hero.2859dc3e.png'
     const bg2 = '/Home-Herobg-c2e4d53f.png'
+    // const style = {
+    //     backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    //     url(${bg2}),
+    //     url(${bg1})`,
+    //     backgroundSize: 'contain,cover',
+    //     backgroundRepeat: 'no-repeat',
+    //     backgroundPosition: 'right,center',
+    // };
     const style = {
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(${bg2}),
-        url(${bg1})`,
-        backgroundSize: 'contain,cover',
+        backgroundImage: `
+            linear-gradient(rgba(144, 240, 231, 0.2), rgba(206, 91, 91, 0.4)),
+            url(${bg2}),
+            url(${bg1})`,
+        backgroundSize: 'contain, cover',
         backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'right,center',
+        backgroundPosition: ' right, center',
+        backgroundColor: 'white', // Fallback background color
     };
     return (
         <>
-            <HeroSection style={style} heading={<h1><span className='greenBackground'>About</span> us</h1>} subHeading='" At Lighthouse Software Solution Pvt Ltd, we are dedicated to shaping your brand s identity. Our exceptional services blend visually appealing and user-friendly design with top-notch programming expertise. "' />
+            <HeroSection style={style} heading={<h1 style={{color:'#903519'}}><span className='greenBackground' style={{color:'white'}}>About</span> us</h1>} subHeading='" At Lighthouse Software Solution Pvt Ltd, we are dedicated to shaping your brand s identity. Our exceptional services blend visually appealing and user-friendly design with top-notch programming expertise. "' />
             <TakeALookAboutPage />
             <OurTeam />
             <AppDevlopment />

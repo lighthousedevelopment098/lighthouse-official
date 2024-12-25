@@ -5,7 +5,7 @@ const OurBestProjects = () => {
         <>
             <div className="OurBestProjecta py-5">
                 <div className="container-fluid text-center">
-                    <h2 className='borderBottom mb-5'><span className='greenColor'>Our</span> Best <span className="greenColor">Projects</span></h2>
+                    <h2 className='borderBottom mb-5'><span className=''>Our</span> Best <span className="greenColor">Projects</span></h2>
                     <div className="projectContainer" style={{ width: '95%', margin: '0px auto' }}>
                         <ul className="nav p-2 align-items-center  d-flex align-items-center justify-content-center nav-tabs" id="myTab" role="tablist" style={{ backgroundColor: '#ffffff', borderRadius: '10px' }}>
                             <li className="nav-item" role="presentation">

@@ -7,11 +7,11 @@ const Footer = () => {
                 <div className="container-fluid">
                     <div className="footerWrapper">
                         <div className="row justify-content-between">
-                            <div className="col-md-6" style={{ background: 'linear-gradient(180deg, #903519 0%, #903519 100%)', borderRadius: "15px", padding: '30px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', justifyContent:'center' }}>
-                                <h2>Ready To Built Your Ideas Into Reality.</h2>
+                            <div className="col-md-6 text-primary-500" style={{color:'#903519',  background: 'linear-gradient(180deg, #ffffff 0%, #ffffff 100%)', borderRadius: "15px", padding: '30px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', justifyContent:'center' }}>
+                                <h2 className='text-primary-500'style={{color:'#903519'}}>Ready To Built Your Ideas Into Reality.</h2>
                                 <h3>THE BEST TIME TO START IS NOW!
                                     0336 5060108</h3>
-                                <button type="button">Get In Touch</button>
+                                <button type="button" className='border px-2 py-1 rounded-md border-primary-500'>Get In Touch</button>
                             </div>
                             <div className="col-md-6 ps-5">
                                 <div className="d-flex justify-content-end">

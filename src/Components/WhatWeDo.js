@@ -18,7 +18,7 @@ const WhatWeDo = () => {
                         <Projects
                         />
                     </div>
-                    <h2 className='mt-1 borderBottom'>What <span className="greenColor">we</span> do</h2>
+                    <h2 className='mt-1 borderBottom text-white'>What <span className="">we</span> do</h2>
                     <h4 className='text-white w-75 mx-auto mt-3'>Unlock your business full potential with our custom-built software solutions, tailored to meet your unique needs and drive success.</h4>
                     <div className="sliderWrapper">
                        

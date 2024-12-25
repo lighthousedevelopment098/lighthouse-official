@@ -1,6 +1,6 @@
 .EverythingInOnePlace {
     padding: 50px 0px;
-    background-image: url('../Images/Untitled-1.jpg');
+    background-image: url('../Images/teest1 (6).webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -20,6 +20,7 @@
 
 .EverythingInOnePlace button:hover {
     background-color: #903519;
+    color: white;
 }
 
 .highQuality button:hover {

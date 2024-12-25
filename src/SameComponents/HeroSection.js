@@ -9,11 +9,11 @@ const HeroSection = ({ heading, subHeading, style, animationData }) => {
                 <Navbar />
                 <div className="container-fluid pt-4" style={{ paddingLeft: '35px' }}>
                     <div className="row justify-content-between">
-                        <div className="col-md-5 center ">
+                        <div className="col-md-5 center text-[#903519] ">
                             {heading}
 
-                            <p>{subHeading}</p>
-                            <button className="primaryBtn px-4 py-2">
+                            <p className='text-[#903519]'  style={{color:'#903519'}}>{subHeading}</p>
+                            <button className="primaryBtn flex  px-4 items-center py-3">
                                 Login now
                                 <img src="/lock.949fbe97.png" alt="lockImg" className='ms-2' />
                             </button>

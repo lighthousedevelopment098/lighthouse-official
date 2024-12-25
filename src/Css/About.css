@@ -3,6 +3,14 @@
     height: 100%;
 }
 
+.appDevlopment {
+    background: linear-gradient(#903519 0%, #903519, 100%);
+    background-image: url("../Images//teest1 (5).webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px 0px;
+  }
 .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -19,8 +27,8 @@
     display: block;
     width: 100%;
     border-radius: 30px !important;
-    /* height: 110%; */
-    object-fit: cover;
+    height: 400px;
+    object-fit: fill;
     transition: all 0.4s ease;
 }
 
@@ -59,7 +67,7 @@
 }
 
 .ourTeam {
-    background-image: url('../Images/Untitled-1.jpg');
+    background-image: url('../Images/teest1 (5).webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

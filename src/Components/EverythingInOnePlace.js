@@ -7,7 +7,7 @@ const EverythingInOnePlace = () => {
     return (
         <>
             <div className="EverythingInOnePlace text-center padding">
-                <h2 className='borderBottom'><span className="greenColor">Everything</span> you <span className="greenColor">Need</span> in one <span className="greenColor">Place</span></h2>
+                <h2 className='borderBottom'><span className="greenColor">Everything</span> you <span className="greenColor">Need</span> in one <span className="">Place</span></h2>
 
                 <div className="container-fluid mt-4">
 

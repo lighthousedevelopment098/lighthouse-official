@@ -9,17 +9,27 @@ import '../Css/Portfolio.css'
 const Portfolio = () => {
     const bg1 = '/portfolio_2.4df5b044.png'
     const bg2 = '/Home-Herobg-c2e4d53f.png'
+    // const style = {
+    //     backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    //     url(${bg2}),
+    //     url(${bg1})`,
+    //     backgroundSize: 'contain,cover',
+    //     backgroundRepeat: 'no-repeat',
+    //     backgroundPosition: 'right,center',
+    // };
     const style = {
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(${bg2}),
-        url(${bg1})`,
-        backgroundSize: 'contain,cover',
+        backgroundImage: `
+            linear-gradient(rgba(144, 240, 231, 0.2), rgba(206, 91, 91, 0.4)),
+            url(${bg2}),
+            url(${bg1})`,
+        backgroundSize: 'contain, cover',
         backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'right,center',
+        backgroundPosition: ' right, center',
+        backgroundColor: 'white', // Fallback background color
     };
     return (
         <>
-            <HeroSection heading={<h1>Our <span className='greenBackground'>Portfolio</span></h1>} subHeading='" At our company, we have a dynamic and driven team of developers, designers, and marketers who are fueled by passion and commitment."' style={style} />
+            <HeroSection heading={<h1 style={{color:'#903519'}}>Our <span  className='greenBackground text-white'>Portfolio</span></h1>} subHeading='" At our company, we have a dynamic and driven team of developers, designers, and marketers who are fueled by passion and commitment."' style={style} />
             <OurBestProjects />
             <DigitalRealities />
             <TheBestTimeToStart />

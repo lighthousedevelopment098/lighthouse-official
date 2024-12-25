@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <>
             <div className="navBar">
-                <nav className="navbar navbar-expand-lg navbar-light " style={{ padding: '38px 30px' }}>
+                <nav className="navbar navbar-expand-lg navbar-light " style={{ padding: '3px 30px' }}>
                     <div className="container-fluid">
                         <NavLink to='/'>
                             <img src={require('..//Images/lighthouselogo.png')} alt="logoImg" style={{ maxWidth: '110px' }} />
