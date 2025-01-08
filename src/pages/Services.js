@@ -1,12 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import HeroSection from '../SameComponents/HeroSection'
 import DigitalRealities from '../Components/DigitalRealities'
 import TheBestTimeToStart from '../Components/TheBestTimeToStart'
 import Footer from '../SameComponents/Footer'
 import EverythingInOnePlace from '../Components/EverythingInOnePlace'
 import '../Css/Services.css'
+import { useLocation } from 'react-router-dom'
 const Services = () => {
+    const location = useLocation();
 
+    useEffect(() => {
+      // Scroll to the top whenever the location changes
+      window.scrollTo(0, 0);
+    }, [location]);
+  
     const bg1 = '/services.3b34f62e.png'
     const bg2 = '/Home-Herobg-c2e4d53f.png'
     // const style = {

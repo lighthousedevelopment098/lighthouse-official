@@ -1,12 +1,24 @@
 import React from 'react'
-
+      const bg1 = '/'
+    const bg2 = '/Home-Herobg-c2e4d53f.png'
 const HardwarePkg = () => {
+
+    const style = {
+        backgroundImage: `
+            linear-gradient(rgba(144, 240, 231, 0.2), rgba(206, 91, 91, 0.4)),
+            url(${bg2}),
+            url(${bg1})`,
+        backgroundSize: 'contain, cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: ' right, center',
+        backgroundColor: 'white', // Fallback background color
+    };
     return (
         <>
-            <div className="ResellerPackege text-center p-5" style={{backgroundColor:'black'}}>
-                <h2 className="borderBottom mb-5">Hardware <span className="greenColor">Services</span></h2>
+            <div style={style} className="ResellerPackege text-center p-5" >
+                <h2 className="borderBottom  greenColor mb-2">Hardware <span className="greenColor">Services</span></h2>
 
-                <p >We are providing  all these services</p>
+                <p className="greenColor">We are providing  all these services</p>
                 {/* <div className="container">
                     <div className="row">
                         <div className="col-md-12 d-flex justify-content-end">

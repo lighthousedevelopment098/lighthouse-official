@@ -227,7 +227,7 @@
 
 /* ARTICLES */
 .articles {
-  background-color: black !important;
+  /* background-color: black !important; */
   background-image: url("../Images//tt1.webp");
   background-size: cover;
   background-repeat: no-repeat;
@@ -284,7 +284,8 @@
 }
 
 .digitalRealities .container {
-  background-image: url("../Images//istockphoto-1372988361-612x612.jpg");
+  /* background-image: url("../Images//istockphoto-1372988361-612x612.jpg"); */
+  background-color: azure;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -355,7 +356,7 @@ hr {
 
 /* FOOTER */
 .footer {
-  background-color: black;
+  background-color: #903519;
   /* background-image: url("../Images//teest1 (2).webp");
   background-size: cover;
   background-repeat: no-repeat;
@@ -403,7 +404,7 @@ hr {
   content: "";
   width: 0%;
   height: 2px;
-  background-color: #903519;
+  background-color: #f8fafc;
   display: block;
   transition: all 0.4s ease;
 }
@@ -413,7 +414,7 @@ hr {
 }
 
 .footer a:hover {
-  color: #903519;
+  color: #ecf6ec;
 }
 
 .footer img {
@@ -479,9 +480,11 @@ hr {
   flex-direction: column;
   align-items: start;
   padding-left: 50px !important;
-  height: min-content !important;
+  height: 30vh !important;
   border: none !important;
   position: relative !important;
+
+  margin-bottom: 10px;
   padding-right: 20px !important;
   padding-bottom: 20px !important;
   padding-top: 20px !important;
@@ -490,6 +493,7 @@ hr {
 .TestimonialSlider .swiper-slide img {
   position: absolute !important;
   max-width: 90px !important;
+  max-height: 120px !important;
   border-radius: 50% !important;
   padding: 10px !important;
   background-color: #f8fafc !important;

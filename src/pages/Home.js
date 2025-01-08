@@ -15,37 +15,45 @@ import Footer from '../SameComponents/Footer'
 import TheBestTimeToStart from '../Components/TheBestTimeToStart'
 import Testimonials from '../Components/Testimonials'
 const Home = () => {
-
-    const bg1 = '/manVr.f5cc434b.png'
-    const bg2 = '/Home-Herobg-c2e4d53f.png'
-
-    // const style = {
-    //     backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    //     url(${bg2}),
-    //     url(${bg1})`,
-    //     backgroundSize: 'contain,cover',
-    //     backgroundRepeat: 'no-repeat',
-    //     backgroundPosition: 'right,center',
-    // };
+    const bg1 = '/manVr.f5cc434b.png';
+    const bg2 = '/Home-Herobg-c2e4d53f.png';
     const style = {
-        backgroundImage: `
-            linear-gradient(rgba(144, 240, 231, 0.2), rgba(206, 91, 91, 0.4)),
-            url(${bg2}),
-            url(${bg1})`,
-        backgroundSize: 'contain, cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: ' right, center',
-        backgroundColor: 'white', // Fallback background color
+      backgroundImage: `
+        linear-gradient(rgba(144, 240, 231, 0.2), rgba(206, 91, 91, 0.4)),
+        url(${bg2}),
+        url(${bg1})`,
+      backgroundSize: 'contain, cover',
+      backgroundRepeat: 'no-repeat',
+      backgroundPosition: 'right, center',
+      backgroundColor: 'white', // Fallback background color
+      position: 'relative', // Ensure the container is positioned correctly for child effects
     };
+    // const bg1 = '/manVr.f5cc434b.png'
+    // const bg2 = '/Home-Herobg-c2e4d53f.png'
+    // const style = {
+    //     backgroundImage: `
+    //         linear-gradient(rgba(144, 240, 231, 0.2), rgba(206, 91, 91, 0.4)),
+    //         url(${bg2}),
+    //         url(${bg1})`,
+    //     backgroundSize: 'contain, cover',
+    //     backgroundRepeat: 'no-repeat',
+    //     backgroundPosition: ' right, center',
+    //     backgroundColor: 'white', // Fallback background color
+    // };
+
     
     return (
         <>
+      {/* <div className="blur-overlay"></div> */}
             <HeroSection style={style} heading={<>
                 <h1 className='text-[#c] font-bold ' style={{color:'#903519'}}>Think <span className="greenBackground text-white">Ahead</span> & </h1>
                 <h1 className='text-[#903519]'  style={{color:'#903519'}}><span className='greenBackground text-white'>Scale</span> Results</h1></>
 
-            } subHeading='" Unlock your business full potential with our custom-built software solutions, tailored to meet your unique needs and drive success."' />
-            <WhatWeDo />
+            } 
+                
+            subHeading='" Unlock your business full potential with our custom-built software solutions, tailored to meet your unique needs and drive success."' />
+           
+            <WhatWeDo /> 
             <AboutUs />
             <TakeALook />
             <BuildFromStratch />
@@ -58,6 +66,8 @@ const Home = () => {
             <DigitalRealities />
             <TheBestTimeToStart />
             <Footer />
+       
+   
 
         </>
     )

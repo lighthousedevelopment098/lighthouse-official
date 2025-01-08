@@ -1,12 +1,28 @@
 import React from 'react'
+
 import { Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+      const bg1 = '/'
+    const bg2 = '/Home-Herobg-c2e4d53f.png'
 const ResellerSlider = () => {
+    const style = {
+        
+        backgroundImage: `
+            linear-gradient(rgba(144, 240, 231, 0.2), rgba(206, 91, 91, 0.4)),
+            url(${bg2}),
+            url(${bg1})`,
+        backgroundSize: 'contain, cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: ' right, center',
+        backgroundColor: 'white',
+        overflowX: 'hidden',
+        // Fallback background color
+    };
     return (
         <>
-            <div className="ResellerSlider" style={{ backgroundColor: 'black', overflowX:'hidden' }}>
+            <div className="ResellerSlider" style={style}>
                 <div
-                    style={{ width: '95%', margin: 'px auto' }}>
+                    style={{ width: '90%', margin: 'px auto' }}>
                     <Swiper
                         slidesPerView={4}
                         loop={true}
@@ -52,8 +68,8 @@ const ResellerSlider = () => {
                            
                             <button
                                 type="button"
-                                className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                className="px-2 py-1 text-white bg-[#903519] fw-bold border-0 mt-3 rounded-3 mb-3"
+                                style={{ backgroundColor: '#903519' }}
                             >
                               CPU 
                             </button>
@@ -62,7 +78,7 @@ const ResellerSlider = () => {
                         <SwiperSlide>
                             <img src="https://stl.tech/wp-content/uploads/2023/01/Routers-in-networking.jpg" className='h-full border border-2 ' style={{ maxWidth: '260px' , height:'50vh'}} alt="" />
                          
-                            <button type='button' className='px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3' style={{ backgroundColor: '#009BDD' }}>Buy Now</button>
+                            <button type='button' className='px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3' style={{ backgroundColor: '#903519' }}>Buy Now</button>
                         </SwiperSlide>
 
 
@@ -77,7 +93,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                 Computer Hardware 
 
@@ -94,7 +110,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                 Server
                             </button>
@@ -110,7 +126,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                Batteries 
                             </button>
@@ -127,7 +143,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                 Electrical Wiring 
                             </button>
@@ -144,7 +160,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                Fyber Wiring 
                             </button>
@@ -161,7 +177,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                 Industrial Equipment 
                             </button>
@@ -177,7 +193,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                 Boards
                             </button>
@@ -192,7 +208,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                 Home Appliance 
                             </button>
@@ -207,7 +223,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                 Computer Hardware 
 
@@ -223,7 +239,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                 Laptop Screens
                             </button>
@@ -238,7 +254,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                 Smartphone Screens
                             </button>
@@ -253,7 +269,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                 TV Mounting 
                             </button>
@@ -268,7 +284,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                 Washing Machines
                             </button>
@@ -283,7 +299,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                Refrigerator 
                             </button>
@@ -298,7 +314,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                 Air Conditioner 
                             </button>
@@ -313,7 +329,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                 Microwave  
                             </button>
@@ -328,7 +344,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                Dishwasher 
                             </button>
@@ -343,7 +359,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                Switch
                             </button>
@@ -358,7 +374,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                Modem
                             </button>
@@ -373,7 +389,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                Firewall 
                             </button>
@@ -388,7 +404,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                               Access Point (AP)
                             </button>
@@ -403,7 +419,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                               USB Hub 
                             </button>
@@ -418,7 +434,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >Gateway 
                             </button>
                         </SwiperSlide>
@@ -432,7 +448,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                Network Bridge 
                             </button>
@@ -447,7 +463,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                Network Interface Card (NIC)
                             </button>
@@ -462,7 +478,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                Repeater 
                             </button>
@@ -477,26 +493,12 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                Load Balancer 
                             </button>
                         </SwiperSlide>
-                        <SwiperSlide>
-                            <img
-                                src="https://brightdata.com/wp-content/uploads/2024/05/How-proxy-servers-work.png"
-                                className="h-full border border-2 "
-                                style={{ maxWidth: '260px', height: '50vh' }}
-                                alt=""
-                            />
-                            <button
-                                type="button"
-                                className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
-                            >
-                              Proxy Server 
-                            </button>
-                        </SwiperSlide>
+                     
                         <SwiperSlide>
                             <img
                                 src="https://zeve.au/wp/uploads/2023/12/diy-home-plumbing-projects.jpg"
@@ -507,7 +509,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                               Plumbing Hardware 
                             </button>
@@ -522,7 +524,7 @@ const ResellerSlider = () => {
                             <button
                                 type="button"
                                 className="px-2 py-1 text-white fw-bold border-0 mt-3 rounded-3 mb-3"
-                                style={{ backgroundColor: '#009BDD' }}
+                                style={{ backgroundColor: '#903519' }}
                             >
                                Lighting Fixture 
                             </button>

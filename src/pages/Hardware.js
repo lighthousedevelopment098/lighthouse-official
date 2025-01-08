@@ -1,18 +1,29 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import HeroSection from '../SameComponents/HeroSection'
 import servers from '../Images/servers.json'
-import DigitalRealities from '../Components/DigitalRealities'
+// import DigitalRealities from '../Components/DigitalRealities'
 import TheBestTimeToStart from '../Components/TheBestTimeToStart'
 import Footer from '../SameComponents/Footer'
-import ResellerPackege from '../Components/ResellerPackege'
-import HostingPackeges from '../Components/HostingPackeges'
+// import ResellerPackege from '../Components/ResellerPackege'
+// import HostingPackeges from '../Components/HostingPackeges'
 import ResellerSlider from '../SameComponents/ResellerSlider'
 import '../Css/HostingAndServers.css'
-import WebHostingSlider from '../SameComponents/WebHostingSlider'
+// import WebHostingSlider from '../SameComponents/WebHostingSlider'
 import HardwarePkg from '../Components/HardwarePkg'
+import { useLocation } from 'react-router-dom'
 const Hardware = () => {
-    const bg1 = '/teest1 (3).webp'
-    const bg2 = '/teest1 (3).webp'
+    const location = useLocation();
+
+    useEffect(() => {
+      // Scroll to the top whenever the location changes
+      window.scrollTo(0, 0);
+    }, [location]);
+  
+    // const bg1 = '/teest1 (3).webp'
+    // const bg2 = '/teest1 (3).webp'
+    
+    const bg1 = '/'
+    const bg2 = '/Home-Herobg-c2e4d53f.png'
     const style = {
         backgroundImage: `
             linear-gradient(rgba(144, 240, 231, 0.2), rgba(206, 91, 91, 0.4)),
@@ -33,10 +44,10 @@ const Hardware = () => {
     // };
     return (
         <>
-            <HeroSection style={style} heading={<><h1> <span className="greenBackground">Hardware</span> & Services</h1></>} subHeading='Blazing-fast hardware services, built for reliability.' animationData={servers} />
+            <HeroSection style={style} heading={<><h1 style={{color:'#903519'}}> <span className="greenBackground text-white">Hardware</span> & Services</h1></>} subHeading='Blazing-fast hardware services, built for reliability.' animationData={servers} />
           <HardwarePkg/>
             <ResellerSlider /> 
-            <br/>
+            
             {/* <HostingPackeges /> */}
             {/* <WebHostingSlider /> */}
             {/* <DigitalRealities /> */}

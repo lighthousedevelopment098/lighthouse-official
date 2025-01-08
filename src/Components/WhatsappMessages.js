@@ -2,11 +2,23 @@ import Lottie from 'lottie-react'
 import React from 'react'
 import animationData from '../Images/girl.json'
 const WhatsappMessages = () => {
+    const bg1 = '/'
+    const bg2 = '/Home-Herobg-c2e4d53f.png'
+    const style = {
+        backgroundImage: `
+            linear-gradient(rgba(144, 50, 231, 0.2), rgba(206, 91, 91, 0.4)),
+            url(${bg2}),
+            url(${bg1})`,
+        backgroundSize: 'contain, cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: ' right, center',
+        backgroundColor: 'white', // Fallback background color
+    };
     return (
         <>
-            <div className="MakeYourCompanyOffical p-5 text-center" style={{ background: 'radial-gradient(circle, #903519, rgb(0, 0, 0) 71%)' }}>
+            <div className="MakeYourCompanyOffical p-5 text-center" style={style}>
                 <h2 className='borderBottom   d-inline-block'>WhatsApp <span className="greenColor">Messaging</span></h2>
-                <h3 className='text-center mb-4 text-white'>Platform with external applications and services</h3>
+                <h3 className='text-center mb-4 'style={{color:'#903519', fontWeight:'bold'}}>Platform with external applications and services</h3>
                 <div className="container mt-5">
                     <div className="row align-items-center justify-content-between">
                         <div className="col-md-6 text-start">

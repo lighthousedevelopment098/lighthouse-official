@@ -2,9 +2,22 @@ import React from 'react'
 import Lottie from 'lottie-react'
 import animtaionData from '../Images/animation_lmn4kl7m.json'
 const TakeALookAboutPage = () => {
+    const bg1 = '/'
+    const bg2 = '/Home-Herobg-c2e4d53f.png'
+
+    const style = {
+        backgroundImage: `
+            linear-gradient(rgba(144, 240, 231, 0.4), rgba(206, 91, 91, 0.8)),
+            url(${bg2}),
+            url(${bg1})`,
+        backgroundSize: 'contain, cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: ' right, center',
+        backgroundColor: 'white', // Fallback background color
+    };
     return (
         <>
-            <div className="takeALookAboutPage appDevlopment padding py-5">
+            <div className="takeALookAboutPage appDevlopment padding py-5" style={style}>
                 <div className="container p-5 " >
                 {/* style={{ boxShadow: ' rgba(0, 0, 0, 0.24) 0px 3px 8px', borderRadius: "20px" }} */}
                     <div className="row align-items-center">

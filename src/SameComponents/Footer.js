@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -18,16 +19,16 @@ const Footer = () => {
                                     <div className="col-md-6">
                                         <h4>Quick Links</h4>
                                         <ul className='p-0 m-0'>
-                                        <li><a href="">∘ Hardware & Services</a></li>
-                                            <li><a href="">∘ Hosting & Servers</a></li>
-                                            <li><a href="">∘ Application Devlopment</a></li>
-                                            <li><a href="">∘ Website Development</a></li>
-                                            <li><a href="">∘ Web Application</a></li>
-                                            <li><a href="">∘ Social Media Marketing</a></li>
-                                            <li><a href="">∘ Search Engine Optimization</a></li>
-                                            <li><a href="">∘ Branded SMS</a></li>
-                                            <li><a href="">∘ Company Regestration</a></li>
-                                            <li><a href="">∘ Whatsapp Api</a></li>
+                                        <li><a href="/hardware_and_services">∘ Hardware & Services</a></li>
+                                            <li><Link to={'/hosting_and_servers'} href="">∘ Hosting & Servers</Link></li>
+                                            <li><Link to={'/mobile_application_page'} >∘ Application Devlopment</Link></li>
+                                            <li><Link to={"/website_devlopment"}>∘ Website Development</Link></li>
+                                            <li><Link to={'/web_application'}>∘ Web Application</Link></li>
+                                            <li><Link to={"/smm"}>∘ Social Media Marketing</Link></li>
+                                            {/* <li><Link to={"/"}>∘ Search Engine Optimization</Link></li> */}
+                                            <li><Link to={"/robo_calls"}>∘ Branded SMS</Link></li>
+                                            <li><Link to={"/company_registration"}>∘ Company Regestration</Link></li>
+                                            <li><Link  to={"/api"}>∘ Whatsapp Api</Link></li>
                                         </ul>
                                     </div>
                                     <div className="col-md-6">

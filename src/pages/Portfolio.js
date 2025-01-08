@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import HeroSection from '../SameComponents/HeroSection'
 import DigitalRealities from '../Components/DigitalRealities'
 import Footer from '../SameComponents/Footer'
 import TheBestTimeToStart from '../Components/TheBestTimeToStart'
 import OurBestProjects from '../Components/OurBestProjects'
 import '../Css/Portfolio.css'
+import { useLocation } from 'react-router-dom'
 
 const Portfolio = () => {
+    const loaction =useLocation();
+    useEffect (()=>{
+        window.scroll(0,0)
+    },[loaction])
     const bg1 = '/portfolio_2.4df5b044.png'
     const bg2 = '/Home-Herobg-c2e4d53f.png'
     // const style = {

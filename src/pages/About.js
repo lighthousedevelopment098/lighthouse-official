@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import AppDevlopment from '../SameComponents/AppDevlopment'
 import BuildFromStratch from '../Components/BuildFromStratch'
 import TheBestTimeToStart from '../Components/TheBestTimeToStart'
@@ -7,8 +7,16 @@ import HeroSection from '../SameComponents/HeroSection'
 import TakeALookAboutPage from '../Components/TakeALookAboutPage'
 import '../Css/About.css'
 import OurTeam from '../Components/OurTeam'
+import { useLocation } from 'react-router-dom'
 
 const About = () => {
+       const location = useLocation();
+   
+       useEffect(() => {
+       
+         window.scrollTo(0, 0);
+       }, [location]);
+     
     const bg1 = '/about_hero.2859dc3e.png'
     const bg2 = '/Home-Herobg-c2e4d53f.png'
     // const style = {

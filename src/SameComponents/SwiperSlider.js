@@ -24,6 +24,7 @@ import WebApplication from '../Images/webapplication.json'
 
 
 const SwiperSlider = () => {
+    
     return (
         <>
             <Swiper
@@ -31,14 +32,15 @@ const SwiperSlider = () => {
                 loop={true}
                 autoplay={
                     {
-                        delay: 1000
+                        delay: 2000
                     }
                 }
                 spaceBetween={20}
                 pagination={{
                     clickable: true,
                 }}
-                modules={[]}
+                modules={[Autoplay]} 
+                // modules={[]}
                 className="mySwiper"
                 breakpoints={{
                     0: {
@@ -65,54 +67,65 @@ const SwiperSlider = () => {
                     <SliderCard img='https://wolftechs.pk/_next/static/media/Serviceboy.69aaf9e2.png'
                         heading='Social Meida Marketing'
                         subHeading='"Lets boost your sales through SSM"'
+                           link='/smm'
                         animationData={socialMediaMarkeeting} />
+                     
                 </SwiperSlide>
-                <SwiperSlide>
+                {/* <SwiperSlide>
                     <SliderCard img='https://wolftechs.pk/_next/static/media/GirlService.f2a54f9a.png'
                         heading='Search Engine Optimization'
                         subHeading='"Lets improve your website by ranking through SEO"'
+                            link='/smm'
                         animationData={Seo} />
-                </SwiperSlide>
+                        
+                </SwiperSlide> */}
                 <SwiperSlide>
                     <SliderCard img='https://wolftechs.pk/_next/static/media/Serviceboy.69aaf9e2.png'
                         heading='Company Registration'
                         subHeading='"Lets make your company offical"'
+                            link='/company_registration'
                         animationData={companyRegistration} />
                 </SwiperSlide>
                 <SwiperSlide>
                     <SliderCard img='https://wolftechs.pk/_next/static/media/GirlService.f2a54f9a.png'
                         heading='Brand SMS & Robo calls'
                         subHeading='"Easy way to communicate with each other"'
+                            link='/robo_calls'
                         animationData={RoboCalls} />
                 </SwiperSlide>
                 <SwiperSlide>
                     <SliderCard img='https://wolftechs.pk/_next/static/media/Serviceboy.69aaf9e2.png'
                         heading='Whatsapp APIs'
                         subHeading='"Complete offical & unoffical APIs"'
+                            link='/api'
                         animationData={WhatsappApi} />
                 </SwiperSlide>
                 <SwiperSlide>
                     <SliderCard img='https://wolftechs.pk/_next/static/media/GirlService.f2a54f9a.png'
                         heading='Hosting & Servers'
                         subHeading='"Cloud Servers lightning speed"'
+                        link='/hosting_and_servers'
                         animationData={servers} />
                 </SwiperSlide>
                 <SwiperSlide>
                     <SliderCard img='https://wolftechs.pk/_next/static/media/Serviceboy.69aaf9e2.png'
                         heading='Mobile Application'
                         subHeading='"Lets build your idea in application"'
+                            link='/mobile_application_page'
                         animationData={MobileApplication} />
                 </SwiperSlide>
                 <SwiperSlide>
                     <SliderCard img='https://wolftechs.pk/_next/static/media/GirlService.f2a54f9a.png'
                         heading='Website Devlopment'
                         subHeading='"Lets improve your bussiness online"'
+                            link='/website_devlopment'
                         animationData={animationData} />
                 </SwiperSlide>
                 <SwiperSlide>
                     <SliderCard img='https://wolftechs.pk/_next/static/media/Serviceboy.69aaf9e2.png'
                         heading='Web Application'
                         subHeading='"Make an online identity with web app"'
+                            link='/web_application'
                         animationData={WebApplication} />
                 </SwiperSlide>
             </Swiper>

@@ -3,10 +3,24 @@ import { Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { SmsCard } from '../SameComponents/SmsCard';
 const SmsServicesPlans = () => {
+    const bg1 = '/manVr.f5cc434b.png'
+    const bg2 = '/Home-Herobg-c2e4d53f.png'
+
+    const style = {
+        backgroundImage: `
+            linear-gradient(rgba(144, 240, 231, 0.2), rgba(206, 91, 91, 0.4)),
+            url(${bg2}),
+            url(${bg1})`,
+        backgroundSize: 'contain, cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: ' right, center',
+        backgroundColor: 'white', 
+        overflowX: "hidden"// Fallback background color
+    };
     return (
         <>
-            <div className="SmsServicesPlans text-center p-5" style={{ backgroundColor: 'black', overflowX: "hidden" }}>
-                <h2 className='text-center my-5 borderBottom'>Wolf Techs <span className="greenColor"> Branded SMS</span> Services and Plans.</h2>
+            <div className="SmsServicesPlans text-center p-5" style={style}>
+                <h2 className='text-center my-5 borderBottom text-black'style={{color:'black'}}>Wolf Techs <span className="greenColor"> Branded SMS</span> Services and Plans.</h2>
                 <div style={{ width: '95%', margin: '0px auto' }}>
                     <Swiper
                         slidesPerView={4}
@@ -125,8 +139,8 @@ const SmsServicesPlans = () => {
                 </div>
             </div>
 
-            <div className="SmsServicesPlans text-center p-5" style={{ backgroundColor: 'black', overflowX: "hidden" }}>
-                <h2 className='text-center my-5 borderBottom'>Wolf Techs <span className="greenColor"> Branded SMS</span> Services and Plans.</h2>
+            <div className="SmsServicesPlans text-center p-5" style={style}>
+                <h2 className='text-center my-5 borderBottom' style={{color:'black'}}>Wolf Techs <span className="greenColor"> Branded SMS</span> Services and Plans.</h2>
                 <div style={{ width: '95%', margin: '0px auto' }}>
                     <Swiper
                         slidesPerView={4}

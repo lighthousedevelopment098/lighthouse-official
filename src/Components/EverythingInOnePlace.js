@@ -3,10 +3,30 @@ import SwiperSlider from '../SameComponents/SwiperSlider'
 import { NavLink, useNavigate } from 'react-router-dom'
 
 const EverythingInOnePlace = () => {
+    const bg1 = '/services.3b34f62e.png'
+    const bg2 = '/Home-Herobg-c2e4d53f.png'
+    // const style = {
+    //     backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    //     url(${bg2}),
+    //     url(${bg1})`,
+    //     backgroundSize: 'contain,cover',
+    //     backgroundRepeat: 'no-repeat',
+    //     backgroundPosition: 'right,center',
+    // };
+    const style = {
+        backgroundImage: `
+            linear-gradient(rgba(206, 91, 91, 0.4),rgba(144, 240, 231, 0.2)),
+            url(${bg2}),
+            url(${bg1})`,
+        backgroundSize: 'contain, cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: ' right, center',
+        backgroundColor: 'white', // Fallback background color
+    };
     const navigate = useNavigate()
     return (
         <>
-            <div className="EverythingInOnePlace text-center padding">
+            <div className="EverythingInOnePlace text-center padding"style={style}>
                 <h2 className='borderBottom'><span className="greenColor">Everything</span> you <span className="greenColor">Need</span> in one <span className="">Place</span></h2>
 
                 <div className="container-fluid mt-4">
@@ -36,8 +56,8 @@ const EverythingInOnePlace = () => {
                             Planning to built a high quality <span className="greenColor">Website</span> or <span className="greenColor">Application?</span>
                         </h3>
                         <div d-flex className="align-items-center justify-content-center">
-                            <button className='fw-bold' type="button" style={{ backgroundColor: "#903519", color: 'white', marginTop: '25px' }}>Websie Devlopment</button>
-                            <button className='fw-bold' type="button" style={{ backgroundColor: "#903519", color: 'white', marginTop: '25px' }}>Application Devlopment</button>
+                            <button className='fw-bold text-white' type="button" style={{ backgroundColor: "#903519", color: 'white', marginTop: '25px' }}>Websie Devlopment</button>
+                            <button className='fw-bold text-white' type="button" style={{ backgroundColor: "#903519", color: 'white', marginTop: '25px' }}>Application Devlopment</button>
                         </div>
                     </div>
                 </div>

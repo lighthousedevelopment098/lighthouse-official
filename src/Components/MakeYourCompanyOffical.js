@@ -1,14 +1,29 @@
 import React from 'react'
 
 const MakeYourCompanyOffical = () => {
+    
+    const bg1 = '/'
+    const bg2 = '/Home-Herobg-c2e4d53f.png'
+    const style = {
+        backgroundImage: `
+            linear-gradient(rgba(144, 50, 231, 0.2), rgba(206, 91, 91, 0.4)),
+            url(${bg2}),
+            url(${bg1})`,
+        backgroundSize: 'contain, cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: ' right, center',
+        backgroundColor: 'white', // Fallback background color
+    };
     return (
-        <div className="MakeYourCompanyOffical p-5 text-center" style={{ background: 'radial-gradient(circle, #903519, rgb(0, 0, 0) 71%)' }}>
-            <h3 className='text-center text-white'>Let's register your company</h3>
-            <h2 className='borderBottom mb-4  d-inline-block'>Make your <span className="greenColor">Company</span> Official</h2>
+        <div className="MakeYourCompanyOffical p-5 text-center" style={style}>
+              <h2 className='' style={{textAlign:'center',color:'black', width:"100%",padding:'10px 0px'}}><span className="greenColor">Let's register</span> your company</h2>
+          
+            {/* <h3 className='text-center text-white'>Let's register your company</h3> */}
+            <h2 className='borderBottom mb-4  d-inline-block'style={{color:'black'}} >Make your <span className="greenColor">Company</span> Official</h2>
             <div className="container">
                 <div className="row align-items-center justify-content-between">
                     <div className="col-md-6 text-start">
-                        <h2 className='fs-2 mb-4'>Register your <span className="greenColor">company</span> with our company <span className="greenColor">registration  </span> services</h2>
+                        <h2 className='fs-2 mb-4 ' style={{color:'black'}}>Register your <span className="greenColor">company</span> with our company <span className="greenColor">registration  </span> services</h2>
 
                         <p><b style={{ color: '#903519' }}>Legal Recognition:</b> Registering your company provides legal recognition and establishes its distinct identity as a separate legal entity. This separation protects the personal assets of the company's owners and limits their liability in case of any legal issues or debts.</p>
 
