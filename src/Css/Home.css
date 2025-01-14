@@ -74,6 +74,8 @@
 }
 
 /* HERO SECTION */
+
+/* ------------------ */
 .heroSection {
   background-color: black;
 
@@ -93,11 +95,143 @@
 }
 
 .heroIcons {
-  color: #903519 !important;
+  color: #983719 !important;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 25px;
   margin-right: 15px;
 }
+
+/* ---------------------------------------Responsive ------------------------- */
+
+/* Subheading */
+.subHeading {
+  color: #903519;
+  font-size: 1.25rem; /* Default size */
+  margin-bottom: 16px;
+  text-align: center; /* Optional: for alignment consistency */
+}
+
+/* Primary Button */
+.primaryBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #903519;
+  color: white;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.primaryBtn:hover {
+  background-color: #b04828; /* Darker shade on hover */
+}
+
+.primaryBtn img {
+  margin-left: 8px; /* Space between text and image */
+  width: 20px;
+  height: 20px;
+}
+.heroHeading {
+  color: #983719;
+}
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .subHeading {
+    font-size: 1.125rem; /* Slightly smaller text for tablets */
+  }
+
+  .primaryBtn {
+    font-size: 0.95rem; /* Adjust font size */
+    padding: 10px 14px;
+  }
+
+  .primaryBtn img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .subHeading {
+    font-size: 1rem; /* Smaller text for mobile devices */
+  }
+
+  .primaryBtn {
+    font-size: 0.9rem; /* Smaller font size */
+    padding: 8px 12px;
+  }
+
+  .primaryBtn img {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .subHeading {
+    font-size: 0.9rem; /* Compact text size for small devices */
+    color: white;
+  }
+  .heroIcons {
+    color: #fff !important;
+    cursor: pointer;
+    font-size: 25px;
+    margin-right: 15px;
+  }
+  .primaryBtn {
+    font-size: 0.85rem; /* Adjust button size further */
+    padding: 6px 10px;
+  }
+
+  .primaryBtn img {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+/* Typography */
+/* .heroHeading {
+  color: #fff;
+  font-weight: bold;
+  font-size: 3.2rem;
+  text-align: center;
+} */
+
+.heroHeading span.greenBackground {
+  background-color: #903519;
+  color: white;
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .heroHeading {
+    color: #fff;
+    font-size: 2.125rem; /* Adjust font size for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .heroHeading {
+    color: #983719;
+    font-size: 1.5rem; /* Adjust font size for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .heroHeading {
+    color: white;
+    font-size: 1.6rem; /* Compact font size for small devices */
+  }
+}
+
+/* ------------------------------
+ */
 
 /* WHAT WE DO */
 .whatWeDo {
@@ -159,7 +293,7 @@
 }
 
 /* TAKE A LOOK */
-.takeALook {
+/* .takeALook {
   background-color: #903519;
   background-image: url("../Images//light.jpg");
   background-size: cover;
@@ -181,21 +315,131 @@
   position: absolute !important;
   width: 150px !important;
   left: -77px;
+} */
+/* -------------------------- */
+
+.takeALook {
+  background-color: #903519;
+  background-image: url("../Images/light.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px 0;
 }
 
+/* Container for the images with adjustments for positioning */
+.takeAlookBox {
+  position: relative !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Styling for the last image (e.g., laptop) */
+.takeAlookBox img:last-child {
+  border: 6px solid #903519;
+  border-radius: 20px;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Styling for the girl image */
+.takeALook .girlImg {
+  display: none;
+  position: absolute !important;
+  width: 150px !important;
+  left: -20px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .takeALook {
+    padding: 30px 15px;
+    text-align: center;
+  }
+
+  /* Stack the images in a column for smaller screens */
+  .takeAlookBox {
+    flex-direction: column;
+  }
+
+  /* Adjust the position and size of the girl image */
+  .takeALook .girlImg {
+    display: none;
+    position: relative !important;
+    width: 90px !important;
+    left: 0;
+    margin-bottom: 1rem;
+  }
+
+  /* Adjust the size of the last image */
+  .takeAlookBox img:last-child {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .takeALook {
+    padding: 20px 10px;
+  }
+
+  .takeALook .girlImg {
+    width: 100px !important;
+  }
+
+  .takeAlookBox img:last-child {
+    border-radius: 10px;
+  }
+}
+
+/* ------------------------------------------------- */
 /* BUILD FROM STARACH */
-.buildFromStrach {
+/* .buildFromStrach {
   background-image: url("../Images//tt1.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding: 50px 0px;
+  opacity: 0.7;
+} */
+.buildFromStrach {
+  background-image: url("../Images/tt1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px 0;
+  opacity: 1; /* Maintain the original content opacity */
+  position: relative;
 }
+
+.buildFromStrach::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(213, 87, 87, 0.4); /* Black overlay with 70% opacity */
+  z-index: 1;
+  pointer-events: none; /* Ensure the overlay doesn't interfere with clicks */
+}
+
+/* Ensure content inside the class remains above the overlay */
+.buildFromStrach > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* --------------------------------- */
 
 /* GET START WITH */
 .getStartWith {
-  background: linear-gradient(#903519 0%, #983719 100%);
-  background-image: url("../Images//tt1.webp");
+  background: linear-gradient(rgba(206, 91, 91, 0.6), rgba(144, 240, 231, 0.3));
+  /* background-image: url("../Images//tt1.webp"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -211,6 +455,7 @@
 
 .getStartWith h3 {
   font-size: 30px;
+  color: #903519;
   font-weight: bold;
   margin: 0px !important;
 }
@@ -222,6 +467,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  color: #fff;
   padding: 40px 0px;
 }
 
@@ -237,22 +483,26 @@
 }
 
 .articles .articleBoxes {
-  width: 90%;
-  margin: 40px auto;
+  width: 95%;
+  margin: 10px auto;
 }
 
 .articles .articleBoxes .articleBox {
-  width: calc(100% / 3 - 30px);
+  width: calc(100% / 3 - 10px);
   border-radius: 10px;
   border: 6px solid #903519;
   background: white;
+  font-size: 20px;
   padding: 20px;
   min-height: 420px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  text-align: left;
+  text-align: center;
+  text-align: justify;
+  text-transform: capitalize;
+  font-weight: bold;
 }
 
 .articles .articleBoxes .articleBox:nth-child(2) {
@@ -356,6 +606,7 @@ hr {
 
 /* FOOTER */
 .footer {
+  overflow-x: hidden;
   background-color: #903519;
   /* background-image: url("../Images//teest1 (2).webp");
   background-size: cover;
@@ -450,6 +701,7 @@ hr {
 }
 
 .mySwiper .swiper-slide {
+  /* background-image: url("/teest1 (3).webp"); */
   width: 319px;
   height: auto !important;
   display: flex;
@@ -457,9 +709,12 @@ hr {
   justify-content: space-between !important;
   flex-direction: column;
   padding: 20px !important;
-  background: linear-gradient(150deg, #903519 23%, rgb(0, 0, 0) 81%);
-  border: 7px solid white;
-  color: white;
+  /* background: linear-gradient(150deg, #903519 23%, rgb(0, 0, 0) 81%); */
+  background: linear-gradient(rgba(120, 227, 216, 0.6), rgba(231, 38, 38, 0.4));
+  border: 5px solid white;
+  color: #903519;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .mySwiper .swiper-slide img {
@@ -470,30 +725,27 @@ hr {
 }
 
 /* testimonial slider */
+/* Base Styles for Testimonial Slider */
 .TestimonialSlider .swiper-slide {
-  background: transparent !important;
   color: #797979;
   text-align: left !important;
   background-color: #f8fafc !important;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   display: flex;
   flex-direction: column;
-  align-items: start;
-  padding-left: 50px !important;
-  height: 30vh !important;
+  align-items: flex-start;
+  padding: 20px 20px 20px 50px !important;
+  height: 35vh !important;
   border: none !important;
   position: relative !important;
-
   margin-bottom: 10px;
-  padding-right: 20px !important;
-  padding-bottom: 20px !important;
-  padding-top: 20px !important;
 }
 
+/* Image Styling */
 .TestimonialSlider .swiper-slide img {
   position: absolute !important;
   max-width: 90px !important;
-  max-height: 120px !important;
+  max-height: 100px !important;
   border-radius: 50% !important;
   padding: 10px !important;
   background-color: #f8fafc !important;
@@ -502,7 +754,7 @@ hr {
   top: 60px !important;
 }
 
-/* testimonial slider  */
+/* Text Styles */
 .TestimonialSlider .swiper-slide small {
   font-size: 14px !important;
 }
@@ -510,6 +762,52 @@ hr {
 .TestimonialSlider .swiper-slide p {
   font-size: 14px !important;
   color: #797979 !important;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .TestimonialSlider .swiper-slide {
+    padding: 15px !important;
+    height: auto !important; /* Adjust height for smaller screens */
+  }
+
+  .TestimonialSlider .swiper-slide img {
+    max-width: 70px !important;
+    max-height: 80px !important;
+    left: -30px !important;
+    top: 40px !important;
+  }
+
+  .TestimonialSlider .swiper-slide small {
+    font-size: 13px !important;
+  }
+
+  .TestimonialSlider .swiper-slide p {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .TestimonialSlider .swiper-slide {
+    padding: 10px 15px !important;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .TestimonialSlider .swiper-slide img {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    margin-bottom: 10px;
+    max-width: 60px !important;
+    max-height: 70px !important;
+  }
+
+  .TestimonialSlider .swiper-slide small,
+  .TestimonialSlider .swiper-slide p {
+    font-size: 12px !important;
+  }
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -559,7 +857,7 @@ hr {
   }
 
   h3 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .footerWrapper .row .col-md-6 .d-flex {

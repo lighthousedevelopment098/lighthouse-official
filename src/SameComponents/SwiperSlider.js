@@ -64,7 +64,7 @@ const SwiperSlider = () => {
                 }}
             >
                 <SwiperSlide>
-                    <SliderCard img='https://wolftechs.pk/_next/static/media/Serviceboy.69aaf9e2.png'
+                    <SliderCard img='/GirlService.f2a54f9a.png'
                         heading='Social Meida Marketing'
                         subHeading='"Lets boost your sales through SSM"'
                            link='/smm'

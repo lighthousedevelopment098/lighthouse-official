@@ -1,6 +1,6 @@
 import React from 'react'
 import SwiperSlider from '../SameComponents/SwiperSlider'
-import { NavLink, useNavigate } from 'react-router-dom'
+import { Link, NavLink, useNavigate } from 'react-router-dom'
 
 const EverythingInOnePlace = () => {
     const bg1 = '/services.3b34f62e.png'
@@ -55,9 +55,9 @@ const EverythingInOnePlace = () => {
                         <h3 className="borderBottom d-inline-block pb-2 fw-bold fs-2">
                             Planning to built a high quality <span className="greenColor">Website</span> or <span className="greenColor">Application?</span>
                         </h3>
-                        <div d-flex className="align-items-center justify-content-center">
-                            <button className='fw-bold text-white' type="button" style={{ backgroundColor: "#903519", color: 'white', marginTop: '25px' }}>Websie Devlopment</button>
-                            <button className='fw-bold text-white' type="button" style={{ backgroundColor: "#903519", color: 'white', marginTop: '25px' }}>Application Devlopment</button>
+                        <div  className="align-items-center d-flex gap-2  justify-content-center">
+                            <Link to={'/website_devlopment'} className='fw-bold   text-white' style={{ backgroundColor: "#903519", color: 'white', marginTop: '25px',padding:'4px 10px',borderRadius:'5px' }}>Websie Devlopment</Link>
+                            <Link to={'/mobile_application_page'} className='fw-bold text-white' type="button" style={{ backgroundColor: "#903519", color: 'white', marginTop: '25px',padding:'4px 10px',borderRadius:'5px' }}>Application Devlopment</Link>
                         </div>
                     </div>
                 </div>

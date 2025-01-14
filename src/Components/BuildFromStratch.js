@@ -3,8 +3,21 @@ import Lottie from 'lottie-react'
 import animationData from '../Images/animation_lmll6y0y.json'
 import AnimatedButton from '../SameComponents/AnimatedButton'
 const  BuildFromStratch = () => {
+    const bg1 = '/portfolio_2.4df5b044.png'
+    const bg2 = '/Home-Herobg-c2e4d53f.png'
+ 
+    const style = {
+        backgroundImage: `
+            linear-gradient(rgba(144, 240, 231, 0.3), rgba(206, 91, 91, 0.6)),
+            url(${bg2}),
+            url(${bg1})`,
+        backgroundSize: 'contain, cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: ' right, center',
+        backgroundColor: 'white', // Fallback background color
+    };
     return (
-        <div className="buildFromStrach padding">
+        <div className="buildFromStrach padding" style={style}>
             <div className="container ">
                 <div className="row align-items-center justify-content-between">
                     <div className="col-md-6 mb-3">

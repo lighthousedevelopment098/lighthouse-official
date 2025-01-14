@@ -43,7 +43,7 @@ const HostingAndServers = () => {
     // };
     return (
         <>
-            <HeroSection style={style} heading={<><h1 className='text-[#903519]' style={{color:'#903519'}}> <span className="greenBackground" style={{color:'white'}}>Hosting</span> & Servers</h1></>} subHeading='" Cloud Servers lightning speed"' />
+            <HeroSection style={style} bg1={bg1} bg2={bg2} heading={<><h1 className='text-[#903519]' style={{color:'#903519'}}> <span className="greenBackground" style={{color:'white'}}>Hosting</span> & Servers</h1></>} subHeading='" Cloud Servers lightning speed"' />
             <ResellerPackege />
             <ResellerSlider />
             <HostingPackeges />

@@ -25,15 +25,15 @@ const WhatWeDo = () => {
          
                 <div className="container-fluid">
                     <div className="row">
-                        <h3 className="subHeading afterBefore g relative">Trusted by the big ones, loved by everyone</h3>
+                        <h3 className="subHeading afterBefore g relative" style={{fontSize:'22px',textTransform:'capitalize',color:'#903519'}}>Trusted by the big ones, loved by everyone</h3>
                     </div>
 
                     <div className="imgContainer">
                         <Projects
                         />
                     </div>
-                    <h2 className='mt-1 borderBottom text-white'>What <span className="">we</span> do</h2>
-                    <h4 className='text-white w-75 mx-auto mt-3'>Unlock your business full potential with our custom-built software solutions, tailored to meet your unique needs and drive success.</h4>
+                    <h2 className='mt-1 borderBottom text-white' style={{textTransform:'capitalize',}}>What <span className="">we</span> do</h2>
+                    <h4 className=' w-75 mx-auto mt-3' style={{color:'#903519',fontSize:'20px',textTransform:'capitalize',fontWeight:'bold'}}>Unlock your business full potential with our custom-built software solutions, tailored to meet your unique needs and drive success.</h4>
                     <div className="sliderWrapper">
                        
                         <SwiperSlider />

@@ -32,7 +32,7 @@ const MobileApplicationPage = () => {
     };
     return (
         <>
-            <HeroSection style={style} heading={<><h1 className='greenColor'><span className="greenBackground"style={{color:'white'}}>Mobile</span> Application</h1></>} subHeading='"Transform Your Ideas into High-Performance Mobile Apps!"' animationData={mobileApplication} />
+            <HeroSection bg1={bg1} bg2={bg2} style={style} heading={<><h1 className='greenColor'><span className="greenBackground"style={{color:'white'}}>Mobile</span> Application</h1></>} subHeading='"Transform Your Ideas into High-Performance Mobile Apps!"' animationData={mobileApplication} />
             <div className='pb-3' style={{ backgroundColor: 'black' }}>
             <h2 className='' style={{textAlign:'center', width:"100%",padding:'10px 0px'}}><span className="greenColor">Trusted By The </span> Big Ones <span className="greenColor">Loved By</span> Everyone </h2>
               

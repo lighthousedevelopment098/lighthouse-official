@@ -38,7 +38,7 @@ const WebsiteDevlopment = () => {
     // };
     return (
         <>
-            <HeroSection style={style} heading={<><h1 className='greenColor '><span className="greenBackground text-white">Website</span> Devlopment</h1></>} subHeading='"Transform Your Online Presence with Expert Website Development!"' animationData={webDevlopment} />
+            <HeroSection style={style} bg1={bg1} bg2={bg2} heading={<><h1 className='greenColor '><span className="greenBackground text-white">Website</span> Devlopment</h1></>} subHeading='"Transform Your Online Presence with Expert Website Development!"' animationData={webDevlopment} />
             <TechnologyStack />
             <AreYouReady />
             <DigitalRealities />

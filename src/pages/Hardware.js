@@ -44,7 +44,7 @@ const Hardware = () => {
     // };
     return (
         <>
-            <HeroSection style={style} heading={<><h1 style={{color:'#903519'}}> <span className="greenBackground text-white">Hardware</span> & Services</h1></>} subHeading='Blazing-fast hardware services, built for reliability.' animationData={servers} />
+            <HeroSection style={style} bg1={bg1} bg2={bg2} heading={<><h1 style={{color:'#903519'}}> <span className="greenBackground text-white">Hardware</span> & Services</h1></>} subHeading='Blazing-fast hardware services, built for reliability.' animationData={servers} />
           <HardwarePkg/>
             <ResellerSlider /> 
             

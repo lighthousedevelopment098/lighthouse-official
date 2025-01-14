@@ -32,7 +32,7 @@ const WhatsappApi = () => {
     };
     return (
         <>
-            <HeroSection style={style} heading={<><h1 style={{color:'#903519'}}>Whatsapp<span className="greenBackground text-white">API's</span></h1></>} subHeading='"Simplify Business Messaging Using WhatsApp API!"' animationData={api} />
+            <HeroSection style={style} bg1={bg1} bg2={bg2} heading={<><h1 style={{color:'#903519'}}>Whatsapp<span className="greenBackground text-white">API's</span></h1></>} subHeading='"Simplify Business Messaging Using WhatsApp API!"' animationData={api} />
             <WhatsappMessages />
             <TwoDifferentApis />
             <AreYouReady />

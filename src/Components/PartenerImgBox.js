@@ -2,6 +2,7 @@ import React from 'react'
 import PartnerImg from '../SameComponents/PartnerImg'
 
 const PartenerImgBox = () => {
+
     return (
         <>
             <div className="partnerImgBox flex-wrap d-flex align-items-center justify-content-between">

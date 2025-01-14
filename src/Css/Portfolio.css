@@ -23,8 +23,9 @@
   color: white;
 }
 
-.OurBestProjecta .bestProjectsBoxes {
+.OurBestProject .bestProjectsBoxes {
   width: calc(100% / 3 - 15px) !important;
+
   /* display: flex;
   justify-content: center;
   align-items: center;

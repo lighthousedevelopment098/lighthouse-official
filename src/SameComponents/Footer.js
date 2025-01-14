@@ -20,7 +20,7 @@ const Footer = () => {
                                         <h4>Quick Links</h4>
                                         <ul className='p-0 m-0'>
                                         <li><a href="/hardware_and_services">∘ Hardware & Services</a></li>
-                                            <li><Link to={'/hosting_and_servers'} href="">∘ Hosting & Servers</Link></li>
+                                            <li><Link to={'/hosting_and_servers'} >∘ Hosting & Servers</Link></li>
                                             <li><Link to={'/mobile_application_page'} >∘ Application Devlopment</Link></li>
                                             <li><Link to={"/website_devlopment"}>∘ Website Development</Link></li>
                                             <li><Link to={'/web_application'}>∘ Web Application</Link></li>
@@ -34,25 +34,42 @@ const Footer = () => {
                                     <div className="col-md-6">
                                         <h4>Say Hello</h4>
                                         <ul className='p-0 m-0'>
-                                            <li><a href="">∘ +92- 336-5060108</a></li>
-                                            {/* <li><a href="">∘ +92-355-7407567</a></li> */}
-                                            <li><a href="">∘ lighthousedev2024@gmail.com</a></li>
-                                            <li><a href="">∘ admin@lhd-pk.com</a></li>
-                                            <li><a href="">∘ info@lhd-pk.com</a></li>
+                                            <li><Link to={"/"}>∘ +92- 336-5060108</Link></li>
+                                            {/* <li><Link to={"/"}>∘ +92-355-7407567</Link></li> */}
+                                            <li><Link to={"/"}>∘ lighthousedev2024@gmail.com</Link></li>
+                                            <li><Link to={"/"}>∘ admin@lhd-pk.com</Link></li>
+                                            <li><Link to={"/"}>∘ info@lhd-pk.com</Link></li>
                                             <li>
                                                 <div className="d-flex socialLinks">
-                                                    <a href="">
-                                                        <i className="fa-brands fa-facebook"></i>
+                                                <a 
+  href="https://www.facebook.com/Teamlighthouse004" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <i className="fa-brands fa-facebook"></i>
+</a>
+
+                                                    <a href='https://www.linkedin.com/company/light-house-development098/'
+                                                    target='_blank'
+                                                    rel='noopener noreferrer'
+                                                    >
+                                                        <i className="fa-brands fa-linkedin"></i>
                                                     </a>
-                                                    <a href="">
-                                                        <i className="fa-brands fa-youtube"></i>
-                                                    </a>
-                                                    <a href="">
+                                                    <a href='https://www.instagram.com/teamlighthouse21/'
+                                                    target='_blank'
+                                                    rel='noopener noreferrer'
+                                                    >
                                                         <i className="fa-brands fa-instagram"></i>
-                                                    </a>
-                                                    <a href="">
-                                                        <i className="fa-brands fa-whatsapp"></i>
-                                                    </a>
+                                                        </a>
+                                                        <a 
+  href="https://wa.me/923157505059" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <i className="fa-brands fa-whatsapp"></i>
+</a>
+
+
                                                 </div>
                                             </li>
                                             <li>

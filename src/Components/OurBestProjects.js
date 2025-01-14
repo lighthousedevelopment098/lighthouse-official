@@ -175,6 +175,8 @@ import project19 from '../Images/OurProject/website/Prp.589999fd.png'
 import project20 from '../Images/OurProject/website/Virsa.581aefc6.png'
 import project21 from '../Images/OurProject/website/UltimateAdventureTours.e26508da.png'
 import project22 from '../Images/OurProject/website/Tks.8dd29ce6.png'
+import project38 from '../Images/OurProject/website/Baba Machine Web Development Post.jpg'
+import project39 from '../Images/OurProject/website/RIC Web Development Post.jpg'
 import project23 from '../Images/OurProject/website/RoyalMate.f852bace.png'
 import project33 from '../Images/OurProject/website/Web Development Post.jpg'
 import project25 from '../Images/OurProject/Ecom/Artisan.a3e2e9b5.png'
@@ -185,16 +187,16 @@ import project29 from '../Images/OurProject/Ecom/Luks.0219f089.png'
 import project30 from '../Images/OurProject/Ecom/ShakuGems.a0ee1beb.png'
 import project31 from '../Images/OurProject/Ecom/StShop.6dcc1e36.png'
 import project24 from '../Images/OurProject/Ecom/VapourSmoke.a943487b.png'
+import project43 from '../Images/OurProject/website/world staff system Web Development Post.jpg'
 // Sample project data
 const projects = [
-  { id: 1, name: "Ssf Savor", category: "Applications", image: project1 },
-  { id: 2, name: "Cab-5", category: "Applications", image: project2 },
-  { id: 3, name: "Food Channel", category: "Applications", image: project3 },
-  { id: 4, name: "Linkefy", category: "Applications", image: project4 },
-  { id: 5, name: "QuickWays", category: "Applications", image: project5 },
-  { id: 6, name: "Vheelo", category: "Applications", image: project6 },
-  { id: 7, name: "Rooi Boos", category: "Applications", image: project7 },
-  { id: 24, name: "VistaMart", category: "Websites", image: project33 },
+
+  { id: 24, name: "VistaMart", category: "Ecommerce Store", image: project33 },
+
+  { id: 38, name: "Baba Machine", category: "Websites", image: project38 },
+  
+  { id: 39, name: "RIC ", category: "Ecommerce Store", image: project39 },
+  { id: 43, name: "World Staff System", category: "Websites", image: project43 },
   { id: 8, name: "4thGeneration", category: "Websites", image: project8 },
   { id: 9, name: "Aesthetica Plastika", category: "Websites", image: project9 },
   { id: 10, name: "Bch", category: "Websites", image: project10 },
@@ -227,6 +229,13 @@ const projects = [
   { id: 31, name: "ShakuGems", category: "Ecommerce Store", image: project30 },
   
   { id: 32, name: "StShop", category: "Ecommerce Store", image: project31 },
+  { id: 1, name: "Ssf Savor", category: "Applications", image: project1 },
+  { id: 2, name: "Cab-5", category: "Applications", image: project2 },
+  { id: 3, name: "Food Channel", category: "Applications", image: project3 },
+  { id: 4, name: "Linkefy", category: "Applications", image: project4 },
+  { id: 5, name: "QuickWays", category: "Applications", image: project5 },
+  { id: 6, name: "Vheelo", category: "Applications", image: project6 },
+  { id: 7, name: "Rooi Boos", category: "Applications", image: project7 },
 ];
 
 const OurBestProjects = () => {
@@ -237,12 +246,11 @@ const OurBestProjects = () => {
       (project) => selectedCategory === "All" || project.category === selectedCategory
     );
   
-    // Limit projects to 6 by default
+
     const displayedProjects = showAll ? filteredProjects : filteredProjects.slice(0, 6);
   
  
 
-  // Filter projects based on selected category
  
   const bg1 = "/";
   const bg2 = "/Home-Herobg-c2e4d53f.png";
@@ -264,7 +272,7 @@ const OurBestProjects = () => {
       <h2 className="borderBottom mb-5">
         <span>Our</span> Best <span className="greenColor">Projects</span>
       </h2>
-      <div className="projectContainer" style={{ width: "95%", margin: "0 auto" }}>
+      <div className="projectContainer" >
         {/* Tabs */}
         <ul
           className="nav p-2 d-flex align-items-center justify-content-center nav-tabs"
@@ -272,7 +280,7 @@ const OurBestProjects = () => {
           role="tablist"
           style={{ backgroundColor: "#ffffff", borderRadius: "10px" }}
         >
-          {["All", "Applications", "Websites", "Ecommerce Store"].map((category) => (
+          {["All","Ecommerce Store", "Websites","Applications" ].map((category) => (
             <li className="nav-item" role="presentation" key={category}>
               <button
                 className={`nav-link ${selectedCategory === category ? "active" : ""}`}
@@ -286,18 +294,18 @@ const OurBestProjects = () => {
 
         {/* Projects Grid */}
         <div className="tab-content p-3">
-          <div className="row justify-content-center g-3">
+          <div className="row justify-content-center OurBestProject gap-2">
             {displayedProjects.map((project) => (
               <div
                 key={project.id}
-                className="bestProjectsBoxes col-lg-4 col-md-6 col-sm-6 mb-4 gap-2 rounded-3 bg-transparent p-3"
-                style={{ border: "4px solid #903519", color: "white" }}
+                className=" col-lg-3 bestProjectsBoxes col-md-6 col-sm-6 mb-2   rounded-3 bg-transparent p-2"
+                style={{ border: "3px solid #903519", color: "white", }}
               >
                 <img
                   src={project.image}
                   className="img-fluid rounded-3 mb-3"
                   alt={project.name}
-                  style={{ height: "400px", }}
+                  style={{ height: "450px", }}
                 />
                 <h5
                   style={{

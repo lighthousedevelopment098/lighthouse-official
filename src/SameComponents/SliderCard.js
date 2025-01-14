@@ -14,9 +14,10 @@ const SliderCard = ({ img, heading, subHeading, animationData,link }) => {
   
     return (
         <>
+        
             <img src={img} alt="" style={{height:'200px'}}/>
             <h4>{heading}</h4>
-            <p className='fw-normal'>{subHeading}</p>
+            <p className=''>{subHeading}</p>
             <div >
                 <Lottie animationData={animationData} style={{maxWidth:'180px', marginBottom:"30px"}}/>
             </div>

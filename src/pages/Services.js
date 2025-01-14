@@ -36,7 +36,7 @@ const Services = () => {
     };
     return (
         <>
-            <HeroSection style={style} heading={<h1 style={{color:'#903519'}} className='text-[#903519]'>Our <span className='text-white greenBackground'>Services</span></h1>} subHeading='" We are a Tech Services Company providing Various Digital Services Worldwide. We use modern tools, trends and technology to empower you to be on top."' />
+            <HeroSection style={style} bg1={bg1} bg2={bg2} heading={<h1 style={{color:'#903519'}} className='text-[#903519]'>Our <span className='text-white greenBackground'>Services</span></h1>} subHeading='" We are a Tech Services Company providing Various Digital Services Worldwide. We use modern tools, trends and technology to empower you to be on top."' />
             <EverythingInOnePlace />
             <DigitalRealities />
             <TheBestTimeToStart />

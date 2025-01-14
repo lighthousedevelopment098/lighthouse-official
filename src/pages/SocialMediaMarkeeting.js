@@ -32,7 +32,7 @@ const SocialMediaMarkeeting = () => {
     };
     return (
         <>
-            <HeroSection style={style} heading={<><h1 className=''style={{color:'#903519'}}> <span className="greenBackground" style={{color:'white '}}>Social Media  </span> & Marketing </h1></>} subHeading='Elevate Your Brand Presence Across Social Platforms!' animationData={socialMedia} />
+            <HeroSection style={style} bg1={bg1} bg2={bg2} heading={<><h1 className=''style={{color:'#903519'}}> <span className="greenBackground" style={{color:'white '}}>Social Media  </span> & Marketing </h1></>} subHeading='Elevate Your Brand Presence Across Social Platforms!' animationData={socialMedia} />
             <BoostSalesSlider />
             <Testimonials />
             <DigitalRealities />
