@@ -34,7 +34,8 @@ const Portfolio = () => {
     };
     return (
         <>
-            <HeroSection bg1={bg1} bg2={bg2} heading={<h1 style={{color:'#903519'}}>Our <span  className='greenBackground text-white'>Portfolio</span></h1>} subHeading='" At our company, we have a dynamic and driven team of developers, designers, and marketers who are fueled by passion and commitment."' style={style} />
+            <HeroSection bg1={bg1} bg2={bg2} heading={<h1 style={{color:'#903519'}}
+            >Our Journey of   <span  className='greenBackground text-white'> Successful </span>Deliveries</h1>} subHeading='" At our company, we have a dynamic and driven team of developers, designers, and marketers who are fueled by passion and commitment."' style={style} />
             <OurBestProjects />
             <DigitalRealities />
             <TheBestTimeToStart />

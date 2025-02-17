@@ -27,7 +27,7 @@ module.exports = {
 }
 module.exports = {
   corePlugins: {
-    preflight: true, // Disable Preflight CSS
+    preflight: false, // Disable Preflight CSS
   },
 };
 

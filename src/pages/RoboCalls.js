@@ -32,7 +32,9 @@ const RoboCalls = () => {
     };
     return (
         <>
-            <HeroSection style={style} bg1={bg1} bg2={bg2} heading={<><h1 style={{ lineHeight: '80px',color:'#903519' }}>Branded <span className="greenBackground text-white">Sms</span> & Robbo <span className='greenBackground text-white'>Calls</span></h1></>} subHeading='"Reach Your Audience Instantly with Branded SMS & Robo Calls!"' animationData={roboCalls} />
+            <HeroSection style={style} bg1={bg1} bg2={bg2}
+             heading={<><h1 style={{ lineHeight: '80px',color:'#903519' }}>Branded <span className="greenBackground text-white">Sms</span> & Robbo <span className='greenBackground text-white'>Calls</span></h1></>}
+              subHeading='"Connect with your audience instantly through branded SMS and robo calls, delivering personalized messages that drive engagement and boost your business reach."' animationData={roboCalls} />
             <SmsServicesPlans />
             <AreYouReady />
             <DigitalRealities />

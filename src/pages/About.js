@@ -39,7 +39,12 @@ const About = () => {
     };
     return (
         <>
-            <HeroSection style={style} bg1={bg1} bg2={bg2} heading={<h1 style={{color:'#903519'}}><span className='greenBackground' style={{color:'white'}}>About</span> us</h1>} subHeading='" At Lighthouse Software Solution Pvt Ltd, we are dedicated to shaping your brand s identity. Our exceptional services blend visually appealing and user-friendly design with top-notch programming expertise. "' />
+            <HeroSection style={style} bg1={bg1} bg2={bg2} heading=
+            {
+                <h1 style={{color:'#903519'}}>Our <span className='greenBackground'
+             style={{color:'white'}}> Mission,</span>  Your Success</h1>
+            }
+              subHeading='" At Lighthouse Software Solution Pvt Ltd, we are dedicated to shaping your brand s identity. Our exceptional services blend visually appealing and user-friendly design with top-notch programming expertise. "' />
             <TakeALookAboutPage />
             <OurTeam />
             <AppDevlopment />

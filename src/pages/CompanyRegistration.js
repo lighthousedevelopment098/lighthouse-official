@@ -30,7 +30,10 @@ const CompanyRegistration = () => {
     };
     return (
         <>
-            <HeroSection style={style} bg1={bg1} bg2={bg2} heading={<><h1 className='greenColor'><span className="greenBackground text-white">Company </span>Registration</h1></>} subHeading='"Register Your Dream Company Today!"' animationData={companyRegistration} />
+            <HeroSection style={style} bg1={bg1} bg2={bg2} 
+            heading={<><h1 className='greenColor'><span className="greenBackground text-white">Company </span>Registration</h1></>} 
+            subHeading='
+"Take the first step towards success by registering your dream company today, and turn your vision into reality."' animationData={companyRegistration} />
             <MakeYourCompanyOffical />
             <AreYouReady />
             <DigitalRealities />

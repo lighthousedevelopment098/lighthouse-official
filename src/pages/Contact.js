@@ -33,7 +33,9 @@ const Contact = () => {
    
     return (
         <>
-            <HeroSection style={style} bg1={bg1} bg2={bg2} heading={<h1 style={{color:'#903519'}}><span style={{color:'white'}} className='greenBackground'>Contact</span> us</h1>} subHeading='" Feel free to contact us and tell us about your great ideas so we can turn it into reality"'  />
+            <HeroSection style={style} bg1={bg1} bg2={bg2}
+             heading={<h1 style={{color:'#903519'}}>Stay <span style={{color:'white'}} className='greenBackground'
+             > Connected  </span> With Our Team</h1>} subHeading='" Feel free to contact us and tell us about your great ideas so we can turn it into reality"'  />
         
             <ContactForm />
             <DigitalRealities />

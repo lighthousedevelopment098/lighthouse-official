@@ -30,7 +30,10 @@ const WebApplication = () => {
     };
     return (
         <>
-            <HeroSection style={style} bg1={bg1} bg2={bg2} heading={<><h1 className='greenColor'><span className="greenBackground text-white">Web</span> Application</h1></>} subHeading='"Empowering Your Business with Custom Web Applications!"' animationData={webAppApp} />
+            <HeroSection style={style} bg1={bg1} bg2={bg2} heading={<><h1 className='greenColor'>
+                <span className="greenBackground text-white">Web</span> Application</h1></>}
+                 subHeading='
+"Boost your business with tailor-made web applications, designed to streamline operations, enhance efficiency, and provide scalable solutions for growth and success."' animationData={webAppApp} />
             <div className='p-5' style={style}>
                 <ImproveBusiness heading={<><h3 className=' mb-4 fs-1'>Make your  <span className="greenColor"> business </span>life easy and  <span className="greenColor">Advance. </span><span className="greenColor"></span><span className="greenColor"></span></h3></>}
                     pOne={<> <p>Are you in search of a truly distinctive web application that offers a diverse range of functionalities? Look no further! At Wolf Software Solutions Pvt. Ltd., our team of seasoned designers and developers is poised to transform your visionary concepts into reality.</p></>}

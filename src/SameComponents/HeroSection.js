@@ -16,9 +16,9 @@ const HeroSection = ({ heading, subHeading, animationData,bg1,bg2 }) => {
 
     };
     return (
-        <>
+        <>     <Navbar />
             <div className="heroSection relative" style={style}>
-                <Navbar />
+       
                 <div className="container-fluid pt-4" style={{ paddingLeft: '35px' }}>
                     <div className="row justify-content-between">
                         <div className="col-md-5 center  ">

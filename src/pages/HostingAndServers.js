@@ -43,7 +43,9 @@ const HostingAndServers = () => {
     // };
     return (
         <>
-            <HeroSection style={style} bg1={bg1} bg2={bg2} heading={<><h1 className='text-[#903519]' style={{color:'#903519'}}> <span className="greenBackground" style={{color:'white'}}>Hosting</span> & Servers</h1></>} subHeading='" Cloud Servers lightning speed"' />
+            <HeroSection style={style} bg1={bg1} bg2={bg2} heading={<><h1 className='text-[#903519]'
+             style={{color:'#903519'}}> <span className="greenBackground" style={{color:'white'}}>Hosting</span> & Servers</h1></>} subHeading='
+"Our cloud servers offer lightning-fast speed, providing scalable, secure, and reliable solutions that ensure seamless performance and efficient business operations, no matter the demand."' />
             <ResellerPackege />
             <ResellerSlider />
             <HostingPackeges />
